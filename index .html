@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>国内量子产业上游纯未上市企业完整名录+融资详情（2026最新完整版）</title>
+<style>
+  :root {
+    --bg: #f8f9fa; --card-bg: #ffffff; --text: #2c3e50; --text-light: #5d6d7e;
+    --border: #e0e0e0; --accent: #2c3e50; --shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif; background: var(--bg); color: var(--text); line-height: 1.75; font-size: 15px; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 20px 60px; }
+  .hero { background: linear-gradient(135deg,#1a1a2e 0%,#16213e 40%,#0f3460 80%,#1a1a2e 100%); color: #fff; padding: 50px 0 40px; text-align: center; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse at 30% 50%,rgba(52,152,219,0.15) 0%,transparent 60%),radial-gradient(ellipse at 70% 30%,rgba(155,89,182,0.12) 0%,transparent 50%); }
+  .hero-content { position: relative; z-index: 1; }
+  .hero h1 { font-size: 28px; font-weight: 700; margin-bottom: 10px; letter-spacing: 1px; }
+  .hero .subtitle { font-size: 14px; opacity: 0.7; letter-spacing: 2px; }
+  .overview { background: var(--card-bg); border-radius: 12px; padding: 32px; margin: -24px auto 32px; box-shadow: var(--shadow); position: relative; z-index: 2; }
+  .overview h2 { font-size: 20px; color: var(--accent); margin-bottom: 16px; border-left: 4px solid #3498db; padding-left: 12px; }
+  .overview p { margin-bottom: 10px; color: var(--text-light); font-size: 14px; }
+  .stat-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 16px; margin-top: 20px; }
+  .stat-card { background: linear-gradient(135deg,#f8f9fa,#e8f6f3); border-radius: 10px; padding: 20px; text-align: center; border: 1px solid var(--border); }
+  .stat-card .num { font-size: 26px; font-weight: 700; color: #1a5276; }
+  .stat-card .label { font-size: 13px; color: var(--text-light); margin-top: 4px; }
+  .toc { background: var(--card-bg); border-radius: 12px; padding: 28px 32px; margin-bottom: 36px; box-shadow: var(--shadow); }
+  .toc h2 { font-size: 18px; margin-bottom: 16px; border-left: 4px solid var(--accent); padding-left: 12px; }
+  .toc-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 8px; }
+  .toc-item { display: flex; align-items: center; padding: 8px 12px; border-radius: 6px; text-decoration: none; color: var(--text); font-size: 14px; transition: all 0.2s; }
+  .toc-item:hover { background: #f0f0f0; }
+  .toc-item .cat-num { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 50%; font-size: 12px; font-weight: 700; color: #fff; margin-right: 10px; flex-shrink: 0; }
+  .toc-item .cat-count { margin-left: auto; font-size: 12px; color: var(--text-light); }
+  .cat-header { display: flex; align-items: center; padding: 16px 24px; border-radius: 10px; margin: 40px 0 24px; color: #fff; font-size: 18px; font-weight: 700; box-shadow: var(--shadow); }
+  .cat-header .num { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,0.25); margin-right: 14px; font-size: 15px; }
+  .cat-header .desc { font-size: 13px; font-weight: 400; opacity: 0.85; margin-left: auto; }
+  .cat-header.cat1 { background: linear-gradient(135deg,#1a5276,#2980b9); }
+  .cat-header.cat2 { background: linear-gradient(135deg,#6c3483,#8e44ad); }
+  .cat-header.cat3 { background: linear-gradient(135deg,#b7950b,#d4ac0d); }
+  .cat-header.cat4 { background: linear-gradient(135deg,#196f3d,#229954); }
+  .cat-header.cat5 { background: linear-gradient(135deg,#a04000,#ca6f1e); }
+  .cat-header.cat6 { background: linear-gradient(135deg,#2874a6,#3498db); }
+  .cat-header.cat7 { background: linear-gradient(135deg,#922b21,#c0392b); }
+  .cat-header.cat8 { background: linear-gradient(135deg,#1f618d,#5dade2); }
+  .company-card { background: var(--card-bg); border-radius: 12px; margin-bottom: 24px; overflow: hidden; box-shadow: var(--shadow); border: 1px solid var(--border); }
+  .company-header { padding: 18px 28px; display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
+  .company-header .idx { font-size: 14px; font-weight: 700; opacity: 0.6; }
+  .company-header .name { font-size: 20px; font-weight: 700; }
+  .company-header .tag { font-size: 12px; padding: 3px 10px; border-radius: 20px; background: rgba(0,0,0,0.06); color: rgba(255,255,255,0.9); }
+  .cat1 .company-header { background: linear-gradient(135deg,#1a5276,#2980b9); color: #fff; }
+  .cat2 .company-header { background: linear-gradient(135deg,#6c3483,#8e44ad); color: #fff; }
+  .cat3 .company-header { background: linear-gradient(135deg,#b7950b,#d4ac0d); color: #fff; }
+  .cat4 .company-header { background: linear-gradient(135deg,#196f3d,#229954); color: #fff; }
+  .cat5 .company-header { background: linear-gradient(135deg,#a04000,#ca6f1e); color: #fff; }
+  .cat6 .company-header { background: linear-gradient(135deg,#2874a6,#3498db); color: #fff; }
+  .cat7 .company-header { background: linear-gradient(135deg,#922b21,#c0392b); color: #fff; }
+  .cat8 .company-header { background: linear-gradient(135deg,#1f618d,#5dade2); color: #fff; }
+  .company-body { padding: 0 28px 28px; }
+  .section { margin-top: 20px; }
+  .section-title { font-size: 15px; font-weight: 700; padding: 8px 16px; border-radius: 6px; display: flex; align-items: center; margin-bottom: 12px; }
+  .section-title .icon { width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; margin-right: 10px; color: #fff; flex-shrink: 0; }
+  .section-content { padding: 0 8px; font-size: 14px; }
+  .section-content p { margin-bottom: 8px; }
+  .section-content strong { color: var(--accent); font-weight: 600; }
+  .bg-section .section-title { background: #ebf5fb; color: #1a5276; }
+  .bg-section .icon { background: #1a5276; }
+  .inv-section .section-title { background: #fef9e7; color: #b7950b; }
+  .inv-section .icon { background: #b7950b; }
+  .exit-section .section-title { background: #eafaf1; color: #196f3d; }
+  .exit-section .icon { background: #196f3d; }
+  .highlight-box { background: #f0f7ff; border-left: 3px solid #3498db; padding: 10px 14px; margin: 8px 0; border-radius: 0 6px 6px 0; font-size: 13px; }
+  .risk-box { background: #fdf2e9; border-left: 3px solid #e67e22; padding: 10px 14px; margin: 8px 0; border-radius: 0 6px 6px 0; font-size: 13px; }
+  .exit-box { background: #eafaf1; border-left: 3px solid #27ae60; padding: 10px 14px; margin: 8px 0; border-radius: 0 6px 6px 0; font-size: 13px; }
+  .rating-box { background: linear-gradient(135deg,#f5f5f5,#fafafa); border: 1px solid var(--border); border-radius: 8px; padding: 14px 18px; margin: 10px 0; }
+  .rating-box .rating-label { font-size: 12px; color: var(--text-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .rating-box .rating-text { font-size: 14px; font-weight: 600; }
+  .footer { text-align: center; padding: 40px 0 20px; color: var(--text-light); font-size: 13px; }
+  .chart-section { margin-top: 32px; }
+  .chart-section h3 { font-size: 17px; color: var(--accent); margin-bottom: 16px; border-left: 4px solid #3498db; padding-left: 12px; }
+  .chart-row { display: flex; gap: 24px; margin-bottom: 24px; flex-wrap: wrap; }
+  .chart-box { flex: 1; min-width: 420px; background: linear-gradient(135deg,#fafbfc,#f4f6f8); border-radius: 12px; padding: 24px; border: 1px solid var(--border); }
+  .chart-box-full { width: 100%; background: linear-gradient(135deg,#fafbfc,#f4f6f8); border-radius: 12px; padding: 24px; border: 1px solid var(--border); margin-bottom: 24px; }
+  .chart-box h4, .chart-box-full h4 { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 18px; text-align: center; }
+  .chart-legend { display: flex; justify-content: center; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-light); }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .chart-svg { width: 100%; height: auto; display: block; }
+  /* 进度条 */
+  .progress-bar { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg,#3498db,#8e44ad,#d4ac0d); z-index: 9999; width: 0%; transition: width 0.15s; }
+  /* 工具栏 */
+  .toolbar { position: sticky; top: 0; z-index: 900; background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 10px 16px; margin: 0 0 28px; border-radius: 10px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .search-box { flex: 1; min-width: 180px; position: relative; }
+  .search-box input { width: 100%; padding: 7px 14px 7px 34px; border: 1.5px solid var(--border); border-radius: 20px; font-size: 13px; outline: none; transition: all 0.2s; background: #f8f9fa; color: var(--text); }
+  .search-box input:focus { border-color: #3498db; background: #fff; box-shadow: 0 0 0 3px rgba(52,152,219,0.1); }
+  .search-box .search-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: #95a5a6; font-size: 14px; pointer-events: none; }
+  .filter-tabs { display: flex; gap: 5px; flex-wrap: wrap; }
+  .filter-tab { padding: 4px 11px; border-radius: 16px; font-size: 12px; cursor: pointer; border: 1.5px solid var(--border); background: #fff; color: var(--text-light); transition: all 0.2s; user-select: none; white-space: nowrap; }
+  .filter-tab:hover { border-color: #3498db; color: #3498db; }
+  .filter-tab.active { background: #2c3e50; color: #fff; border-color: #2c3e50; }
+  .tool-btn { padding: 5px 11px; border-radius: 6px; font-size: 12px; cursor: pointer; border: 1.5px solid var(--border); background: #fff; color: var(--text); transition: all 0.2s; white-space: nowrap; }
+  .tool-btn:hover { background: #f0f0f0; border-color: #bdc3c7; }
+  .no-results { display: none; text-align: center; padding: 60px 20px; color: var(--text-light); font-size: 16px; }
+  .no-results .icon { font-size: 40px; margin-bottom: 12px; }
+  /* 返回顶部 */
+  .back-top { position: fixed; bottom: 30px; right: 30px; width: 44px; height: 44px; border-radius: 50%; background: #2c3e50; color: #fff; border: none; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s; z-index: 999; box-shadow: 0 4px 14px rgba(0,0,0,0.18); }
+  .back-top.show { opacity: 1; visibility: visible; }
+  .back-top:hover { background: #34495e; transform: translateY(-3px); }
+  /* 折叠 */
+  .company-body { transition: max-height 0.35s ease, opacity 0.25s ease, padding 0.3s ease; overflow: hidden; }
+  .company-card.collapsed .company-body { max-height: 0; opacity: 0; padding-top: 0; padding-bottom: 0; }
+  .company-header { cursor: pointer; user-select: none; }
+  .company-header .toggle { margin-left: auto; font-size: 12px; opacity: 0.6; transition: transform 0.3s; }
+  .company-card.collapsed .company-header .toggle { transform: rotate(-90deg); }
+  .company-header .star { font-size: 16px; opacity: 0.5; cursor: pointer; transition: all 0.2s; margin-left: 8px; }
+  .company-header .star:hover { opacity: 1; transform: scale(1.2); }
+  .company-header .star.starred { opacity: 1; color: #f1c40f; }
+  /* 暗黑模式 */
+  body.dark { --bg: #0f0f1a; --card-bg: #1a1a2e; --text: #e0e0e0; --text-light: #a0a0b0; --border: #2a2a4a; --shadow: 0 2px 8px rgba(0,0,0,0.3); }
+  body.dark .overview, body.dark .toc { background: var(--card-bg); }
+  body.dark .stat-card { background: linear-gradient(135deg,#16213e,#1a1a2e); border-color: #2a2a4a; }
+  body.dark .stat-card .num { color: #5dade2; }
+  body.dark .highlight-box { background: #1a2535; border-left-color: #3498db; }
+  body.dark .risk-box { background: #2a1a15; border-left-color: #e67e22; }
+  body.dark .exit-box { background: #152a20; border-left-color: #27ae60; }
+  body.dark .rating-box { background: #16213e; border-color: #2a2a4a; }
+  body.dark .chart-box, body.dark .chart-box-full { background: linear-gradient(135deg,#16213e,#1a1a2e); border-color: #2a2a4a; }
+  body.dark .toolbar { background: rgba(15,15,26,0.92); border-color: #2a2a4a; }
+  body.dark .search-box input { background: #16213e; color: #e0e0e0; border-color: #2a2a4a; }
+  body.dark .filter-tab, body.dark .tool-btn { background: #16213e; color: #a0a0b0; border-color: #2a2a4a; }
+  body.dark .filter-tab.active { background: #3498db; border-color: #3498db; color: #fff; }
+  body.dark .section-content strong { color: #5dade2; }
+  body.dark .bg-section .section-title { background: #1a2535; color: #5dade2; }
+  body.dark .inv-section .section-title { background: #2a2a15; color: #f1c40f; }
+  body.dark .exit-section .section-title { background: #152a20; color: #2ecc71; }
+  body.dark .footer { color: #6a6a7a; }
+  body.dark .back-top { background: #3498db; }
+  @media (max-width: 768px) { .hero h1 { font-size: 22px; } .company-header .name { font-size: 17px; } .container { padding: 0 12px 40px; } .overview, .toc { padding: 20px; } .chart-box { min-width: 100%; } .toolbar { padding: 8px 10px; gap: 6px; } .filter-tab { padding: 3px 8px; font-size: 11px; } .tool-btn { padding: 4px 8px; font-size: 11px; } }
+</style>
+</head>
+<body>
+<div class="hero"><div class="hero-content"><h1>国内量子产业上游纯未上市企业完整名录+融资详情</h1><div class="subtitle">2026最新完整版 · 8大赛道 · 28家企业 · 三段式统一分析</div></div></div>
+<div class="container">
+<div class="overview">
+<h2>量子产业发展趋势与前景</h2>
+<p>量子产业以<strong>量子计算、量子保密通信、量子精密测量</strong>三大核心赛道为支柱，是全球各国战略必争的下一代底层颠覆性技术，当前正处于实验室科研向规模化商业落地跨越的拐点，长期具备指数级增长空间。</p>
+<p><strong>六大核心趋势：</strong>①技术路线从"数量竞赛"转向"可靠性与工程化"；②安全防护进入"QKD+PQC双轨抗量子加密"体系；③"经典-量子混合架构"成为短期主流落地模式；④下游垂直行业场景规模化渗透；⑤全球政策加码+自主可控产业链攻坚；⑥产业生态完善，人才、标准、资本同步集聚。</p>
+<div class="stat-grid">
+<div class="stat-card"><div class="num">218.6亿</div><div class="label">2035年全球量子计算市场（美元）</div></div>
+<div class="stat-card"><div class="num">30.92%</div><div class="label">2026-2035 CAGR</div></div>
+<div class="stat-card"><div class="num">8117亿</div><div class="label">2035年全球全品类量子产业（美元）</div></div>
+<div class="stat-card"><div class="num">37.4%</div><div class="label">亚太区域CAGR（全球第一）</div></div>
+</div>
+<div class="chart-section">
+<h3>数据可视化分析</h3>
+<div class="chart-box-full">
+<h4>全球量子产业市场规模增长预测（2026-2035，单位：亿美元）</h4>
+<svg class="chart-svg" viewBox="0 0 960 360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="barGrad1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3498db" stop-opacity="0.9"/><stop offset="100%" stop-color="#1a5276" stop-opacity="0.7"/></linearGradient>
+</defs>
+<line x1="80" y1="290" x2="910" y2="290" stroke="#bdc3c7" stroke-width="1.5"/>
+<line x1="80" y1="231" x2="910" y2="231" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="80" y1="172" x2="910" y2="172" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="80" y1="114" x2="910" y2="114" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="80" y1="55" x2="910" y2="55" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="70" y="294" text-anchor="end" font-size="11" fill="#7f8c8d">0</text>
+<text x="70" y="235" text-anchor="end" font-size="11" fill="#7f8c8d">2000</text>
+<text x="70" y="176" text-anchor="end" font-size="11" fill="#7f8c8d">4000</text>
+<text x="70" y="118" text-anchor="end" font-size="11" fill="#7f8c8d">6000</text>
+<text x="70" y="59" text-anchor="end" font-size="11" fill="#7f8c8d">8000</text>
+<rect x="90" y="269" width="55" height="21" rx="4" fill="url(#barGrad1)"/><text x="117" y="263" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">718</text><text x="117" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2026</text>
+<rect x="173" y="262" width="55" height="28" rx="4" fill="url(#barGrad1)"/><text x="200" y="256" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">940</text><text x="200" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2027</text>
+<rect x="256" y="254" width="55" height="36" rx="4" fill="url(#barGrad1)"/><text x="283" y="248" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">1231</text><text x="283" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2028</text>
+<rect x="339" y="243" width="55" height="47" rx="4" fill="url(#barGrad1)"/><text x="366" y="237" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">1612</text><text x="366" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2029</text>
+<rect x="422" y="228" width="55" height="62" rx="4" fill="url(#barGrad1)"/><text x="449" y="222" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">2110</text><text x="449" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2030</text>
+<rect x="505" y="209" width="55" height="81" rx="4" fill="url(#barGrad1)"/><text x="532" y="203" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">2763</text><text x="532" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2031</text>
+<rect x="588" y="184" width="55" height="106" rx="4" fill="url(#barGrad1)"/><text x="615" y="178" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">3617</text><text x="615" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2032</text>
+<rect x="671" y="151" width="55" height="139" rx="4" fill="url(#barGrad1)"/><text x="698" y="145" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">4736</text><text x="698" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2033</text>
+<rect x="754" y="108" width="55" height="182" rx="4" fill="url(#barGrad1)"/><text x="781" y="102" text-anchor="middle" font-size="10" fill="#1a5276" font-weight="600">6201</text><text x="781" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2034</text>
+<rect x="837" y="51" width="55" height="239" rx="4" fill="url(#barGrad1)"/><text x="864" y="45" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="700">8117</text><text x="864" y="310" text-anchor="middle" font-size="11" fill="#5d6d7e">2035</text>
+<text x="460" y="345" text-anchor="middle" font-size="12" fill="#95a5a6">年复合增长率（CAGR）30.92%，十年增长超11倍</text>
+</svg>
+</div>
+<div class="chart-row">
+<div class="chart-box">
+<h4>三大核心赛道市场占比（2035E）</h4>
+<svg class="chart-svg" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg">
+<circle cx="180" cy="130" r="90" fill="none" stroke="#ecf0f1" stroke-width="36"/>
+<circle cx="180" cy="130" r="90" fill="none" stroke="#3498db" stroke-width="36" stroke-dasharray="197.92 565.49" stroke-dashoffset="0" transform="rotate(-90 180 130)"/>
+<circle cx="180" cy="130" r="90" fill="none" stroke="#8e44ad" stroke-width="36" stroke-dasharray="226.20 565.49" stroke-dashoffset="-197.92" transform="rotate(-90 180 130)"/>
+<circle cx="180" cy="130" r="90" fill="none" stroke="#d4ac0d" stroke-width="36" stroke-dasharray="141.37 565.49" stroke-dashoffset="-424.12" transform="rotate(-90 180 130)"/>
+<text x="180" y="125" text-anchor="middle" font-size="22" fill="#2c3e50" font-weight="700">8117亿</text>
+<text x="180" y="145" text-anchor="middle" font-size="11" fill="#95a5a6">2035总市场</text>
+<text x="180" y="255" text-anchor="middle" font-size="13" fill="#3498db" font-weight="600">量子计算 35%</text>
+<text x="180" y="275" text-anchor="middle" font-size="13" fill="#8e44ad" font-weight="600">量子通信 40%</text>
+<text x="180" y="295" text-anchor="middle" font-size="13" fill="#d4ac0d" font-weight="600">量子精密测量 25%</text>
+</svg>
+</div>
+<div class="chart-box">
+<h4>8大赛道企业数量分布（本名录）</h4>
+<svg class="chart-svg" viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg">
+<text x="15" y="58" font-size="11" fill="#5d6d7e" text-anchor="end">极低温/真空</text>
+<rect x="190" y="44" width="236" height="24" rx="4" fill="#2980b9"/><text x="434" y="61" font-size="12" fill="#fff" font-weight="600">5</text>
+<text x="15" y="100" font-size="11" fill="#5d6d7e" text-anchor="end">量子测控</text>
+<rect x="190" y="86" width="283" height="24" rx="4" fill="#8e44ad"/><text x="481" y="103" font-size="12" fill="#fff" font-weight="600">6</text>
+<text x="15" y="142" font-size="11" fill="#5d6d7e" text-anchor="end">量子光学</text>
+<rect x="190" y="128" width="330" height="24" rx="4" fill="#d4ac0d"/><text x="528" y="145" font-size="12" fill="#fff" font-weight="600">7</text>
+<text x="15" y="184" font-size="11" fill="#5d6d7e" text-anchor="end">特种材料</text>
+<rect x="190" y="170" width="94" height="24" rx="4" fill="#229954"/><text x="292" y="187" font-size="12" fill="#fff" font-weight="600">2</text>
+<text x="15" y="226" font-size="11" fill="#5d6d7e" text-anchor="end">芯片代工</text>
+<rect x="190" y="212" width="141" height="24" rx="4" fill="#ca6f1e"/><text x="339" y="229" font-size="12" fill="#fff" font-weight="600">3</text>
+<text x="15" y="268" font-size="11" fill="#5d6d7e" text-anchor="end">电磁屏蔽</text>
+<rect x="190" y="254" width="94" height="24" rx="4" fill="#3498db"/><text x="292" y="271" font-size="12" fill="#fff" font-weight="600">2</text>
+<text x="15" y="310" font-size="11" fill="#5d6d7e" text-anchor="end">后量子密码</text>
+<rect x="190" y="296" width="141" height="24" rx="4" fill="#c0392b"/><text x="339" y="313" font-size="12" fill="#fff" font-weight="600">3</text>
+<text x="15" y="352" font-size="11" fill="#5d6d7e" text-anchor="end">中性原子</text>
+<rect x="190" y="338" width="94" height="24" rx="4" fill="#5dade2"/><text x="292" y="355" font-size="12" fill="#fff" font-weight="600">2</text>
+<line x1="190" y1="372" x2="520" y2="372" stroke="#bdc3c7" stroke-width="1"/>
+</svg>
+</div>
+</div>
+<div class="chart-box-full">
+<h4>全球主要区域量子产业CAGR对比（2026-2035）</h4>
+<svg class="chart-svg" viewBox="0 0 960 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="apacGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e74c3c" stop-opacity="0.9"/><stop offset="100%" stop-color="#922b21" stop-opacity="0.7"/></linearGradient>
+<linearGradient id="naGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3498db" stop-opacity="0.9"/><stop offset="100%" stop-color="#1a5276" stop-opacity="0.7"/></linearGradient>
+<linearGradient id="euGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2ecc71" stop-opacity="0.9"/><stop offset="100%" stop-color="#196f3d" stop-opacity="0.7"/></linearGradient>
+<linearGradient id="otGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f39c12" stop-opacity="0.9"/><stop offset="100%" stop-color="#b7950b" stop-opacity="0.7"/></linearGradient>
+</defs>
+<line x1="80" y1="260" x2="880" y2="260" stroke="#bdc3c7" stroke-width="1.5"/>
+<line x1="80" y1="205" x2="880" y2="205" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="80" y1="150" x2="880" y2="150" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="80" y1="95" x2="880" y2="95" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="80" y1="40" x2="880" y2="40" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="70" y="264" text-anchor="end" font-size="11" fill="#7f8c8d">0%</text>
+<text x="70" y="209" text-anchor="end" font-size="11" fill="#7f8c8d">10%</text>
+<text x="70" y="154" text-anchor="end" font-size="11" fill="#7f8c8d">20%</text>
+<text x="70" y="99" text-anchor="end" font-size="11" fill="#7f8c8d">30%</text>
+<text x="70" y="44" text-anchor="end" font-size="11" fill="#7f8c8d">40%</text>
+<rect x="180" y="54" width="120" height="206" rx="6" fill="url(#apacGrad)"/>
+<text x="240" y="48" text-anchor="middle" font-size="14" fill="#c0392b" font-weight="700">37.4%</text>
+<text x="240" y="280" text-anchor="middle" font-size="13" fill="#2c3e50" font-weight="600">亚太</text>
+<text x="240" y="298" text-anchor="middle" font-size="10" fill="#95a5a6">全球第一</text>
+<rect x="360" y="103" width="120" height="157" rx="6" fill="url(#naGrad)"/>
+<text x="420" y="97" text-anchor="middle" font-size="14" fill="#1a5276" font-weight="700">28.5%</text>
+<text x="420" y="280" text-anchor="middle" font-size="13" fill="#2c3e50" font-weight="600">北美</text>
+<text x="420" y="298" text-anchor="middle" font-size="10" fill="#95a5a6">技术领先</text>
+<rect x="540" y="121" width="120" height="139" rx="6" fill="url(#euGrad)"/>
+<text x="600" y="115" text-anchor="middle" font-size="14" fill="#196f3d" font-weight="700">25.3%</text>
+<text x="600" y="280" text-anchor="middle" font-size="13" fill="#2c3e50" font-weight="600">欧洲</text>
+<text x="600" y="298" text-anchor="middle" font-size="10" fill="#95a5a6">政策驱动</text>
+<rect x="720" y="151" width="120" height="109" rx="6" fill="url(#otGrad)"/>
+<text x="780" y="145" text-anchor="middle" font-size="14" fill="#b7950b" font-weight="700">19.8%</text>
+<text x="780" y="280" text-anchor="middle" font-size="13" fill="#2c3e50" font-weight="600">其他地区</text>
+<text x="780" y="298" text-anchor="middle" font-size="10" fill="#95a5a6">起步阶段</text>
+<text x="460" y="318" text-anchor="middle" font-size="12" fill="#95a5a6">亚太地区CAGR领跑全球，中国量子产业为核心增长引擎</text>
+</svg>
+</div>
+</div>
+</div>
+<div class="toc">
+<h2>目录索引</h2>
+<div class="toc-grid">
+<a class="toc-item" href="#cat1"><span class="cat-num" style="background:#2980b9">1</span><span>极低温稀释制冷机 & 超高真空系统</span><span class="cat-count">5家</span></a>
+<a class="toc-item" href="#cat2"><span class="cat-num" style="background:#8e44ad">2</span><span>量子测控硬件、专用芯片与信号采集</span><span class="cat-count">6家</span></a>
+<a class="toc-item" href="#cat3"><span class="cat-num" style="background:#d4ac0d">3</span><span>量子光学元器件、光子芯片</span><span class="cat-count">7家</span></a>
+<a class="toc-item" href="#cat4"><span class="cat-num" style="background:#229954">4</span><span>量子特种功能材料</span><span class="cat-count">2家</span></a>
+<a class="toc-item" href="#cat5"><span class="cat-num" style="background:#ca6f1e">5</span><span>量子芯片代工、微纳加工、封装测试</span><span class="cat-count">3家</span></a>
+<a class="toc-item" href="#cat6"><span class="cat-num" style="background:#3498db">6</span><span>量子电磁屏蔽、抗干扰环境系统</span><span class="cat-count">2家</span></a>
+<a class="toc-item" href="#cat7"><span class="cat-num" style="background:#c0392b">7</span><span>后量子密码PQC底层算法IP</span><span class="cat-count">3家</span></a>
+<a class="toc-item" href="#cat8"><span class="cat-num" style="background:#5dade2">8</span><span>中性原子/离子阱专属上游零部件</span><span class="cat-count">2家</span></a>
+</div>
+</div>
+<div class="progress-bar" id="progressBar"></div>
+<div class="toolbar">
+<div class="search-box"><span class="search-icon">&#128269;</span><input type="text" id="searchInput" placeholder="搜索企业名称、关键词、投资亮点..." /></div>
+<div class="filter-tabs" id="filterTabs">
+<span class="filter-tab active" data-cat="all">全部</span>
+<span class="filter-tab" data-cat="cat1">极低温</span>
+<span class="filter-tab" data-cat="cat2">测控</span>
+<span class="filter-tab" data-cat="cat3">光学</span>
+<span class="filter-tab" data-cat="cat4">材料</span>
+<span class="filter-tab" data-cat="cat5">代工</span>
+<span class="filter-tab" data-cat="cat6">屏蔽</span>
+<span class="filter-tab" data-cat="cat7">PQC</span>
+<span class="filter-tab" data-cat="cat8">原子</span>
+<span class="filter-tab" data-cat="starred" style="color:#f1c40f">&#9733; 收藏</span>
+</div>
+<button class="tool-btn" id="expandAll">全部展开</button>
+<button class="tool-btn" id="collapseAll">全部折叠</button>
+<button class="tool-btn" id="darkMode">&#127769;</button>
+</div>
+<div class="no-results" id="noResults"><div class="icon">&#128269;</div>未找到匹配的企业，请尝试其他关键词</div>
+<div id="cat1"><div class="cat-header cat1"><span class="num">1</span>极低温稀释制冷机 & 超高真空系统<span class="desc">量子产业确定性最高卖铲人，全技术路线通用</span></div>
+<div class="company-card cat1">
+  <div class="company-header">
+    <span class="idx">1.</span>
+    <span class="name">翊冷科技（合肥）</span>
+    <span class="tag">量子赛道高弹力主力重仓</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：成立于2023年5月31日，注册地合肥高新区，法定代表人王绍良，注册资本约1977.78万元；由安徽大学低温材料实验室成果转化落地，技术成果作价1005万元入股，为合肥量子产业集群重点扶持硬科技项目。</p>
+        <p>股权融资：2026年初完成7000万元A轮融资，投资方为合肥市、安徽省三级国有产业基金（合肥产投科创、安徽国控成果转化基金）加市场化头部VC东方富海，国资背书属性极强、持续融资能力充足。</p>
+        <p>核心团队：创始人王绍良为安徽大学材料科学与工程学科带头人，深耕极低温制冷、绝热材料、真空系统十余年；核心团队全部来自高校低温物理、凝聚态物理、精密机械加工方向，属典型高校科研产业化团队。</p>
+        <p>主营产品：核心产品ZL-DR系列极低温稀释制冷机，可实现10mK连续稳定运行，直接对标海外龙头BlueFors、Oxford Instruments；延伸产品包括超高真空腔体系统、低温绝热组件、量子实验低温配套集成设备；已实现商业化量产，年产60台，为国内稀释制冷机赛道第一梯队，超导量子计算机不可或缺的核心"心脏设备"。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①赛道壁垒极高、刚需不可替代：稀释制冷机是超导量子计算机唯一可行极低温环境载体，海外长期垄断、进口单价高、交付周期6-12个月，国产替代政策自上而下驱动；②技术壁垒多学科交叉（低温流体力学、超高真空密封、特种绝热材料、氦循环回收），产品已通过头部量子企业实测，客户粘性极强；③客户资源优质：深度绑定本源量子、幺正量子、中科院量子信息重点实验室，订单确定性强、坏账风险极低；④省市区三级国资联合领投，抗风险与再融资能力突出；⑤赛道延展性强，可延伸凝聚态物理科研、超导材料测试、低噪声量子传感等场景。</div>
+        <div class="risk-box">①产品性能与国际顶尖厂商仍有差距，高端超大机型竞争力不足，短期只能抢占中低端市场；②营收完全依赖量子产业商业化节奏与国家科研经费投放，存在周期性波动；③重研发持续烧钱，未来3-5年大概率维持亏损；④尚未取得专精特新、小巨人等官方资质，招投标加分弱于院所背景竞品；⑤极少数低温阀门、高精度压力传感器等零部件仍依赖外部采购。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">稳健型硬科技一级市场标的，适合长期产业基金、政府引导基金布局；核心逻辑为卡脖子设备国产替代确定性强、客户壁垒深厚、国资托底安全边际高；约束条件为投资周期至少5年以上，需承受阶段性亏损与技术路线迭代不确定性。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（科创板IPO独立上市，最优长期退出）：适配科创板第五套未盈利硬科技标准，预计5-6年完成申报、过会、挂牌；退出溢价最高、流动性最好，且契合合肥本地政府扶持辖区量子龙头上市的诉求。</div>
+        <div class="exit-box">路径二（产业方战略并购，次优中短期路径）：潜在买方包括量子整机龙头本源量子/幺正量子、央企仪器平台中科科仪/中船鹏力低温、高端科学仪器上市公司海光仪器/皖仪科技、合肥产投等产业资本；落地周期3-4年，并购估值通常基于赛道稀缺性给予较高溢价。</div>
+        <div class="exit-box">路径三（老股转让给后续PE/产业基金，流动性兜底）：在B轮、C轮融资中向硬科技专项基金、量子产业垂直基金、上市公司CVC转让老股；合肥量子产业集群资金活跃，但转让估值一般低于IPO与并购，收益空间有限。</div>
+        <div class="exit-box">路径四（创始团队/实控人回购，保底极端兜底）：投资协议约定业绩对赌，约定期限内未完成IPO或并购由创始人按约定年化收益率回购；因创始人资产体量有限，仅作风险底线约束条款。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat1">
+  <div class="company-header">
+    <span class="idx">2.</span>
+    <span class="name">合肥中科科仪量子科技</span>
+    <span class="tag">仅适合避险型私募</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：为北京中科科仪股份有限公司（央企控股、中科院直属，北交所872761）在合肥设立的量子专项全资子公司，落地合肥高新区量子科学中心核心园区；母公司为国内真空科学仪器绝对龙头，深耕超高真空设备70余年，军工、半导体、科研仪器资质齐全。</p>
+        <p>股权融资：控股股东北京中科科仪100%持股，最终实控人为中国科学院，纯国有全资平台；联动国家级战略性新兴产业基金、中科院科技成果转化专项资金、安徽省/合肥市量子产业引导基金，信用背书极强。</p>
+        <p>核心团队：核心研发负责人均为中科院真空物理、低温工程、精密机械、量子微纳加工领域资深研究员与高级工程师，具备军工级仪器可靠性设计与大型真空腔体集成经验，人员稳定性极强。</p>
+        <p>主营产品：①量子级超高真空腔体与集成系统（UHV腔体、真空阀门、检漏机组、无油干泵机组，直接替代德国Leybold、美国Varian、日本ULVAC，供货本源量子、幺正量子、国盾量子等）；②MBE分子束外延设备、PVD薄膜沉积系统（量子芯片超导薄膜原子级生长，国内少数量产厂商）；③低温配套与真空辅助系统。为国内量子超高真空系统央企唯一供货主体，赛道排名第二。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①央企中科院体系兜底：100%国有全资，公司治理、税务、知识产权、招投标全维度零合规瑕疵，风险底色最稳健；②技术壁垒极深：70年真空技术know-how沉淀，MBE量子材料外延设备为国内稀缺量产能力，军工级可靠性标准在国家级实验室招标中天然加分；③内生订单充足：依托中科院体系内部采购+合肥量子集群定点采购，坏账率几乎为0，现金流质量优异，且可复用至半导体、核聚变科研赛道；④母公司产业协同赋能：中科科仪北交所上市，具备成熟产线、供应链、渠道与资本化运作经验；⑤政策红利高度匹配：国家量子重大专项、高端科学仪器国产化、大科学装置建设持续拉动需求。</div>
+        <div class="risk-box">①央企体制决策效率偏低，市场化响应与灵活商务能力弱于民营初创；②业务高度依赖体系内订单，外部市场化拓展动力不足，营收增长上限受体制考核导向约束；③高端量子专用细分产品（离子阱/中性原子定制小型真空模组）迭代节奏略滞后；④资本化独立运作约束多，利润上缴、员工持股受国资监管管控，拆分需冗长审批流程；⑤依旧依附量子产业整体商业化周期。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">低风险稳健型战略配置标的，最适合政府产业引导基金、国资系直投基金、长期产业资本配置；属量子上游"压舱石"型项目，不要期待短期爆发式增速，持有周期建议5年及以上。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（母公司北交所资产重组/分拆注入，最高可行性）：短期3-4年完成子公司营收规模化与独立核算后，由北京中科科仪通过发行股份及支付现金整体收购注入上市公司主体，投资方股权置换为北交所上市公司股票后二级市场分批减持；完全契合国资监管规则、退出确定性最强。</div>
+        <div class="exit-box">路径二（单独分拆科创板独立IPO，长期高溢价）：中期4-6年完成股份制改造、剥离关联交易、申报科创板第五套标准；独立量子概念估值溢价最高，但涉及中科院、国资委多级备案，整体周期长达6-8年、不确定性高。</div>
+        <div class="exit-box">路径三（产业上市公司/央企同业战略并购，中短期备用）：潜在收购方包括皖仪科技、海光仪器、禾信仪器等高端科学仪器上市公司，以及中科院体系兄弟单位、合肥产投等国资平台；周期3-5年即可交割。</div>
+        <div class="exit-box">路径四（老股协议转让，流动性补充）：在B/C轮增资阶段向量子产业专项基金、硬科技仪器基金转让老股回笼本金，但转让估值偏低。</div>
+        <div class="exit-box">路径五（国资大股东股权回购，终极兜底）：投资协议嵌入国资控股股东回购条款，按约定年化收益率回购基金股权；因央企回购审批流程严格，仅作风险底线。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat1">
+  <div class="company-header">
+    <span class="idx">3.</span>
+    <span class="name">中船鹏力低温（南京）</span>
+    <span class="tag">中船724所产业化子公司</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：最终实控人为中国船舶集团（央企），上级主体为中船724研究所（军工雷达、舰船电子装备重点科研院所）；直接股东为鹏力科技集团持股70%、中船科技投资持股20%，国有股权占比100%。2014年成立，注册地南京江宁高新区，国家级专精特新小巨人、高新技术企业、江苏省瞪羚企业，具备特种设备生产许可证与军工可靠性质量体系。</p>
+        <p>股权融资：纯央企二级产业化子公司，股权结构稳定、无实控人变更与质押纠纷；背靠中国船舶万亿级央企平台，扩产与研发融资零压力。</p>
+        <p>核心团队：核心技术人员全部来自中船724所军工低温、流体力学、舰船深冷装备研发体系，500余人技术团队、高级职称专家百人以上、累计300余项专利；设立中科院理化所-鹏力低温工程联合研究中心。</p>
+        <p>主营产品：①量子计算上游极低温配套（4K GM制冷机、液氦闭环回收系统、低温杜瓦、恒温器组件，供货本源量子及各地大科学装置）；②军工与船舶LNG深冷装备（基本盘营收）；③超导MRI医疗核磁、半导体晶圆低温测试、核聚变装置低温环境等延伸赛道。2025年整体营收2.57亿元，国内4K GM制冷机首家产业化、全球第二家量产厂商。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①央企军工兜底：完整军工保密、安全生产、招投标、内控体系，无投资暴雷风险；②多赛道营收结构抗周期：船舶军工深冷（稳定基本盘）+量子大科学装置增量+半导体/医疗核磁延伸，2025年已实现2.57亿营收、具备成熟盈利能力；③军工级技术壁垒深厚：GM脉冲管制冷机热力学循环与低振动结构设计沉淀数十年，液氦闭环回收符合国家氦资源循环利用政策导向，100W@25K大功率机型完成国产化突破；④资质齐全：专精特新小巨人+特种设备资质在国家级招标中天然加分；⑤股东资本实力雄厚，股权稀释压力小。</div>
+        <div class="risk-box">①体制内决策链条冗长，量子细分市场定制化响应偏弱；②战略重心偏向军工主业，量子板块资源投入优先级有限、增长天花板受集团战略约束；③仅聚焦GM预冷机组与氦回收辅助设备，不具备10mK稀释制冷机整机能力，量子产业链核心终端产品缺失；④国资体系资本化运作约束多、股权激励不灵活；⑤仍依附量子产业整体景气度。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">极低风险稳健型底仓配置标的，最适合国资引导基金、产业避险型长期资金布局；核心逻辑为军工基本盘托底业绩+量子低温国产替代增量确定，主打"稳"而非爆发式增长，持有周期建议4-6年。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（集团内部资产重组并入鹏力科技集团主体，最优）：中期3-4年完成低温子公司独立财务核算后，由母公司通过国资评估备案、内部资产重组整体吸收合并，投资方股权置换为集团母公司股权，依托集团整体资本化运作退出，合规性最强、交易周期可控。</div>
+        <div class="exit-box">路径二（并入中船体系上市公司平台，央企主流方式）：由中国船舶（600150）、中船防务、中船科技等A股平台发行股份+现金收购，置换为A股流通股票流动性充足；需经中船集团、国资委多级审批，周期拉长至5-7年。</div>
+        <div class="exit-box">路径三（产业央企/科学仪器上市公司战略并购，中短期备用）：潜在买方包括北京中科科仪、皖仪科技、海光仪器、聚光科技及其他军工央企产业化平台；交割周期3-5年，不强制依赖量子业务单独盈利。</div>
+        <div class="exit-box">路径四（老股协议转让给产业S基金/硬科技专项基金，流动性调剂）：在集团增资扩股、股改阶段转让老股快速回笼本金，但场外转让估值折价明显。</div>
+        <div class="exit-box">路径五（央企大股东股权回购，终极安全兜底）：投资协议明确约定由鹏力科技集团按约定年化收益率回购全部股权，本金刚性兜底，但央企审批流程严格、资金拨付周期较长。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat1">
+  <div class="company-header">
+    <span class="idx">4.</span>
+    <span class="name">冷极量子（上海）</span>
+    <span class="tag">高风险博弈型早期小众标的</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：注册于上海张江高科技园区，聚焦小型桌面式无液氦稀释制冷机研发、生产与销售，为上海本地专注极低温小型制冷设备的民营硬科技初创企业，依托张江半导体、量子信息产业集群做产学研转化。</p>
+        <p>股权融资：早期完成天使轮、Pre-A轮私募融资，投资方以上海本地产业园区基金、市场化早期VC为主，无国家级大型国资战略入股；融资体量远小于翊冷科技、中科科仪量子等头部厂商。</p>
+        <p>核心团队：核心研发人员来自上海高校凝聚态物理、低温工程实验室，属高校科研人员下海创业的技术型团队；团队规模偏小，工程化量产、市场销售、售后运维配置不足。</p>
+        <p>主营产品：①桌面型小型稀释制冷机（最低温10mK级别，整机体积小、运维门槛低，主打高校物理系教学实验室、小型课题组等轻量化场景）；②配套低温辅助组件（小型GM预冷机、氦气回收模块、低温引线、绝热封装）。属稀释制冷机细分小众第二梯队厂商，无法进入本源量子、中科院大科学装置等头部核心供应链。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①细分赛道差异化定位：避开超导量子大型商用机红海，聚焦高校教学桌面小型机型这一碎片化蓝海市场，局部竞争压力小；②上海张江区位产业集群赋能：就近对接上海微系统所、复旦、交大量子实验室，政策扶持体系完善；③民营初创决策效率高：可快速按课题组需求做机型轻量化定制，灵活商务能力优于央企平台；④产品跨场景延展：可延伸二维材料物性测试、单电子器件表征、低温传感器标定等场景。</div>
+        <div class="risk-box">①技术壁垒薄弱：不具备大功率商用级稀释制冷机能力，头部大厂可轻易向下兼容，面临降维挤压风险，核心零部件仍外购；②客户结构分散、单客订单体量小，年度营收难以指数级增长；③初创抗风险能力弱：核心骨干集中、无官方资质加分、后续融资高度依赖资本接续；④议价能力弱、毛利率承压；⑤受国家基础科研经费收缩拖累。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高风险博弈型早期小众标的，仅适合风险承受能力极强的天使基金、产业垂直小体量专项基金小额试水配置，不建议作为主力重仓项目；投资周期6年以上，大概率仅获稳健小幅溢价，必须设置多重兜底风控条款。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业头部同业战略并购，最优可落地路径）：潜在买方包括翊冷科技（补齐小型桌面机型全产品矩阵）、合肥中科科仪量子/中船鹏力低温（补充轻量化低温设备能力）、皖仪科技/海光仪器等科学仪器上市公司；3-5年完成交割，无需企业实现大额盈利，但并购对价溢价有限。</div>
+        <div class="exit-box">路径二（科创板独立IPO，长期高溢价路径但难度最大）：需6-8年持续放量营收并补齐资质，因营收规模过小、技术壁垒不足、同类初创扎堆，过会不确定性极高，属理想化备选方案。</div>
+        <div class="exit-box">路径三（后续融资轮次老股协议转让，流动性兜底）：在B/C轮融资中向上海本地硬科技S基金、量子垂直基金、张江引导基金转让老股，大概率保本或小幅盈利。</div>
+        <div class="exit-box">路径四（创始团队实控人股权回购，终极风险兜底）：投资协议强制约定回购条款，锁定本金最大亏损底线；创始人资产体量有限，仅作风险防火墙。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat1">
+  <div class="company-header">
+    <span class="idx">5.</span>
+    <span class="name">八匹马超导（苏州）</span>
+    <span class="tag">IRR潜力最大</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称苏州八匹马超导科技有限公司，2018年10月成立，注册地江苏昆山张浦镇；民营硬科技高新技术企业、江苏省专精特新中小企业、省级瞪羚企业；法定代表人/实控人汤洪明（哈工大制冷低温工程博士），注册资本3541.02万元，员工约98人，硕士及以上学历超50%。</p>
+        <p>股权融资：创始团队为核心控股方，早期引入晶盛机电（A股半导体设备上市公司）战略入股，后续引入毅达资本、东吴创投、海望资本、光控浦燕、绵阳科发基金等国资创投与市场化头部PE；2026年7月完成B轮数千万元融资，此前A+轮完成超亿元募资；纯市场化民营架构、股权激励与决策灵活度高。</p>
+        <p>核心团队：汤洪明博士深耕超导低温工程产业化多年，技术研发人员占比高；具备低温制冷+超导磁体+超高真空三位一体自研能力。</p>
+        <p>主营产品：①GM脉冲管低温制冷机（4K温区闭环系统、液氦回收装置，对标中船鹏力，量子上游关键配套）；②全系列超导磁体系统（科研NMR核磁磁体、医用质子重离子肿瘤治疗磁体、半导体单晶生长强磁场磁体、曾交付欧洲核子中心CERN 4米超长超导波荡器）；③半导体用大口径低温真空泵（打破海外垄断，国内8万台存量进口替代空间巨大）。2023年营收2439.78万元，处于营收快速爬坡阶段。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①三大底层技术平台闭环（低温制冷+超导磁体+超高真空），跨量子、半导体、医疗、核聚变四大赛道分散风险，抗周期能力显著优于纯稀释制冷机厂商；②产业股东深度赋能：晶盛机电早期入股直接打通半导体设备下游渠道，合作迈胜医疗等质子治疗企业，订单转化确定性高；③民营市场化机制高效：决策链条短、可灵活调整研发优先级并搭建市场化股权激励；④资质齐全：高新+专精特新+瞪羚全套资质，招投标竞争力强；⑤长期成长天花板极高：半导体设备国产替代、高端肿瘤放疗、可控核聚变三大万亿级赛道加持。</div>
+        <div class="risk-box">①不具备10mK稀释制冷机整机能力，量子赛道话语权有限、仅属二级配套；②公司体量偏小：2023年营收仅2400余万元、员工不足百人，仍处阶段性亏损、需持续资本投入；③多赛道分散研发导致单点深度不足；④高端超导磁体与国际巨头（布鲁克、牛津仪器）仍有代差，海外拓展慢；⑤同业头部挤压：直面中船鹏力、翊冷科技、中科科仪竞争。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高成长弹性型硬科技标的，适合长期产业基金、半导体/医疗专项垂直基金配置；核心逻辑为三位一体技术平台稀缺+产业股东加持+四大赛道分散风险，建议持有周期5-7年，重点绑定半导体与医疗业务增量对冲量子行业波动。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（科创板独立IPO，最优长期高溢价路径）：短期1-2年完成产能扩建与营收放量，中期4-6年以高端科学仪器、半导体核心零部件、超导医疗装备定位申报科创板第五套标准；超导+半导体+量子+核聚变多重概念加持，二级市场流动性最好，完整IPO约6-7年。</div>
+        <div class="exit-box">路径二（产业上市公司战略并购，次优中短期首选）：潜在核心买方包括晶盛机电（现有股东、协同意愿最强）、皖仪科技/海光仪器/聚光科技、迈胜医疗等质子治疗企业、中科科仪/中船系装备平台；3-5年完成现金/股份交割，无需企业实现整体盈利。</div>
+        <div class="exit-box">路径三（后续融资轮次老股协议转让，流动性兜底）：在C轮、D轮增资扩股阶段向苏州本地S基金、半导体产业CVC、超导核聚变专项基金转让老股，存在估值折价。</div>
+        <div class="exit-box">路径四（创始团队+大股东股权回购，终极风险兜底）：投资协议嵌入业绩对赌与回购约定，由实控人汤洪明及核心大股东按约定年化收益率回购，锁定本金最大亏损底线。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="cat2"><div class="cat-header cat2"><span class="num">2</span>量子测控硬件、专用芯片与信号采集系统<span class="desc">全量子路线通用上游</span></div>
+<div class="company-card cat2">
+  <div class="company-header">
+    <span class="idx">1.</span>
+    <span class="name">合肥量芯微电子（合肥）</span>
+    <span class="tag">问天量子全资子公司</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称合肥量芯科技有限公司（市场俗称"合肥量芯微电子"），2018年6月15日成立，注册地合肥高新区，注册资本3000万元；高新技术企业、科技型中小企业、合肥市专精特新中小企业；2025年员工42人，全年营业收入2733.27万元，资产总额2442.30万元。</p>
+        <p>股权融资：安徽问天量子科技股份有限公司100%全资控股，最终实控人为中科大韩正甫教授团队（问天量子创始核心），纯民营控股体系，深度绑定合肥量子科学中心产业生态。</p>
+        <p>核心团队：依托中科大量子信息重点实验室技术底座，为量子科研教学装备+量子通信硬件+量子安全应用三大板块的产业化平台。</p>
+        <p>主营产品：①量子计算科教研平台系统（核心营收，2025年中标安徽大学50+比特超导量子计算真机平台项目、中标额340万元，国内为数不多可交付量子实验室整套落地方案的厂商）；②高性能量子通信QKD设备（承接母公司科技部重点研发计划，量子密钥分发终端、量子随机数源）；③后量子密码安全软硬件产品（抗量子攻击加密网关、密码卡、安全系统）。属量子计算下游系统集成商+测控配套设备厂商，不自主量产超导量子芯片。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①中科大顶级科研团队背书，技术源头确定性极强；②营收已规模化落地：2025年实现2733万元收入，现金流模型可验证、DPI落地基础好；③赛道三重布局抗周期：高校科教设备（财政刚性支出基本盘）+QKD政企硬件（中期增量）+后量子密码（长期万亿赛道）；④民营全资架构，大股东回购、业绩对赌、反稀释等全套PE风控条款操作自由度高；⑤与低温制冷5家标的形成产业链协同，投后赋能空间突出。</div>
+        <div class="risk-box">①不掌握量子芯片、稀释制冷机等上游核心硬件，毛利率被上游制约、护城河深度弱于硬件自研企业；②70%以上收入依赖高校、科研院所财政招投标，市场化拓展不足；③母公司问天量子一体化管控，子公司独立资本化存在约束，最优路径为并入母公司整体上市；④本源量子、国盾量子自研测控系统向下挤压第三方集成业务；⑤体量偏小，长期IRR上限低于核心硬件自研标的。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">确定性强、波动小、现金流扎实，但成长弹性一般，定位于组合配套辅助仓位；适合偏好稳健现金流的避险型私募与本地国资基金。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（并入母公司问天量子整体IPO，首选、确定性最高）：3-4年规范独立财务核算与关联交易后，随母公司整体股改冲刺科创板，私募所持股权置换为问天量子母公司股份、IPO解禁后二级市场减持；内部资产重组阻力最小，周期约5-6年。</div>
+        <div class="exit-box">路径二（量子产业头部上市公司战略并购，第二优先级）：潜在买方包括国盾量子（688027，补齐量子实验室系统集成与测控总包能力）、本源量子、皖仪科技/海光仪器、深信服/信安世纪（后量子密码赛道）；3-5年可完成交割，不强制要求子公司超高净利润。</div>
+        <div class="exit-box">路径三（老股协议转让给量子产业S基金/合肥本地国资基金，流动性兜底）：在问天量子Pre-IPO轮融资阶段向合肥产投、量子产业基金、券商直投转让股权快速回笼本金，存在估值折价。</div>
+        <div class="exit-box">路径四（母公司问天量子大股东股权回购，终极风险兜底）：投资协议强制约定，约定期限内整体IPO、产业并购均无法实现时由母公司及实控人韩正甫团队按约定年化收益率全额回购。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat2">
+  <div class="company-header">
+    <span class="idx">2.</span>
+    <span class="name">太微量子MQTEK（合肥）</span>
+    <span class="tag">中性原子/离子阱精密仪器</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称安徽省太微量子科技有限公司（品牌简称太微量子MQTEK，市场常误称杭州，实际注册地合肥高新区），2021年2月成立，注册资本701.43万元，2025年社保在职仅18人，属早期硬核初创项目；国家级高新技术企业、科技型中小企业、安徽省创新型中小企业，手握63项知识产权专利。</p>
+        <p>股权融资：实控人王宣恺（中科大量子信息博士）创始团队控股，纯民营市场化架构；2026年完成天使轮+天使+轮两轮融资，投资方为英诺天使、云启资本、东方嘉富、小苗朗程、远东远至等一线早期VC；2026年全资设立上海共鸣脉冲子公司。</p>
+        <p>核心团队：中科大量子物理博士领衔，具备完整光-机-电-算-软一体化精密仪器研发能力。</p>
+        <p>主营产品：①科研级核心精密仪器（量子气体显微镜QGM，中性原子路线国内市占率超60%、打破海外垄断；低噪声高精度电流源、波长计、离子阱操控光学模组）；②量子教学实训系统（冷原子磁光阱、单光子探测教学平台）；③在研中性原子/离子阱专用量子测控电子系统。定位量子计算上游二级核心零部件"卖水人"，深度绑定中性原子、离子阱差异化赛道。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①差异化稀缺赛道：避开超导量子红海内卷，聚焦中性原子+离子阱非主流路线，量子气体显微镜单品细分市占率超60%形成局部垄断，无论哪条路线产业化上游精密仪器都有刚性采购需求；②中科大顶级博士团队，63项专利构筑护城河，直接替代苏黎世仪器、是德科技等进口高价设备；③纯民营早期架构，全套PE风控条款落地自由度极高；④"卖水人"属性，盈利确定性优于整机厂商；⑤可补齐量子产业链投资组合中性原子/离子阱上游短板。</div>
+        <div class="risk-box">①极早期：2023年全年营收仅55.75万元、员工仅18人，纯研发投入阶段，DPI兑现周期非常漫长；②赛道市场容量偏小，长期营收天花板有限，IRR上限不如低温/测控大单品标的；③技术路线单一，超导赛道布局空白，90%以上行业资源投向超导，一旦非主流路线进度不及预期需求直接萎缩；④国盾、本源等头部大厂跨界降维挤压风险；⑤天使轮项目失败概率偏高，核心技术高度集中在创始人。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高风险早期差异化标的，适合长线硬科技VC与量子产业专项基金小额试水；对基金存续周期要求7年以上，必须设置创始团队回购等兜底条款。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（量子产业头部上市公司同业并购，唯一最落地主通道）：潜在买方包括国盾量子（补齐中性原子/离子阱光学精密仪器产品线）、本源量子（扩充非超导路线上游零部件自研）、国仪量子、皖仪科技/海光仪器；3-5年完成现金/股份交割，但公司估值体量小、并购对价溢价空间有限。</div>
+        <div class="exit-box">路径二（科创板独立IPO，理想化远期备选）：需未来5-7年持续多轮融资、营收突破5000万并补齐小巨人资质，因营收基数过低、赛道过于细分，过会成功率极低。</div>
+        <div class="exit-box">路径三（Pre-IPO轮老股协议转让，流动性兜底被动方案）：在B/C轮机构融资阶段向合肥量子产业S基金、硬科技接续基金场外转让老股，早期项目普遍存在30%-50%估值折价。</div>
+        <div class="exit-box">路径四（创始团队实控人股权回购，终极风险防火墙）：投资协议强制约定回购条款，由创始人王宣恺及核心股东按约定年化收益率回购，锁定本金最大亏损上限。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat2">
+  <div class="company-header">
+    <span class="idx">3.</span>
+    <span class="name">芯量测控（北京）</span>
+    <span class="tag">超导量子测控系统国产化</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称北京芯量测控科技有限公司，注册地北京海淀区/中关村科学城，聚焦超导量子计算核心测控系统国产化研发，对标瑞士苏黎世仪器、美国是德科技、以色列Quantum Machines等海外垄断龙头；高新技术企业、中关村高新技术企业、科技型中小企业，拥有数十项量子多通道脉冲发生器、低噪声信号采集、低温兼容测控板卡发明专利。</p>
+        <p>股权融资：纯民营市场化创业架构，创始团队为北大、中科院微电子所、量子信息实验室资深研发人员控股；处于天使轮/Pre-A早期融资阶段，投资方以北京中关村产业基金、硬科技早期VC为主，全职研发+市场人员30人以内。</p>
+        <p>核心团队：创始团队为量子测控领域资深科研人员，全部资源聚焦超导量子测控单一赛道。</p>
+        <p>主营产品：①主力产品多通道超导量子测控整机系统（40/80/128通道低温兼容测控平台，适配10-100比特量子计算机，直接对标国盾量子极光系列、本源量子Focus测控系统）；②模块化核心板卡组件（低噪声AWG、高速模数采集卡、射频同步时序模块）；③配套软件上位机与量子算法编译系统。量子测控是超导量子计算机的"大脑与神经中枢"。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①量子测控属卡脖子刚需环节、赛道确定性极强：国内测控系统完全被海外四家企业垄断，国产替代政策强力加持，"卖水人"属性不依赖量子商用落地；②民营初创架构，创始人大额年化回购、业绩对赌、反稀释、一票否决等全套PE风控条款落地自由度极高；③完美补齐产业链组合闭环（测控大脑），可与低温硬件标的互相导流订单；④北京中关村硬科技资本化土壤优越，IPO政策友好、S基金与券商辅导资源丰富；⑤产品技术路线高度聚焦，单点深耕力度更强。</div>
+        <div class="risk-box">①行业竞争极度白热化：国盾量子市占率超40%、本源量子自研自用+外售，中微达信、中科酷原、天奥电子等第二梯队抢占市场，小团队只能争夺北方零散高校订单；②极早期：仅小批量样机交付、年度营收百万级别，烧钱周期漫长，DPI兑现周期非常长；③技术壁垒相对有限：测控底层为高速数模混合电路+时序同步软件，电子仪器厂商、通信射频企业均可跨界切入；④客户区域局限性强，全国市场拓展能力不足。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高风险高弹性早期标的，仅适合长线硬科技基金，基金存续周期需7年以上；需以创始团队回购条款锁定本金底线。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（量子产业头部上市公司同业并购，首选、落地概率最高）：潜在买方包括国盾量子（补齐北京区域研发中心与北方渠道）、本源量子（强化测控自研团队与专利池）、皖仪科技/海光仪器/聚光科技、中电科仪器/天奥电子；3-5年完成交割，不强制要求大额净利润，但企业估值体量小、收益溢价有限。</div>
+        <div class="exit-box">路径二（科创板独立IPO，远期备选）：需未来5-7年完成3轮以上融资、营收突破5000万元并申报小巨人资质，赛道细分、营收基数过低导致过会不确定性很高。</div>
+        <div class="exit-box">路径三（Pre-IPO轮老股协议转让，流动性兜底）：在北京中关村S基金、硬科技接续创投场外转让，早期项目普遍存在30%-50%估值折价。</div>
+        <div class="exit-box">路径四（创始团队大股东股权回购，终极风险防火墙）：投资协议强制锁定回购条款，由创始实控人及核心股东按约定年化收益率全额回购，锁定本金最大亏损底线。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat2">
+  <div class="company-header">
+    <span class="idx">4.</span>
+    <span class="name">玄微电子（苏州）</span>
+    <span class="tag">IoT MCU芯片设计初创</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称苏州玄煜微电子有限公司，2023年11月注册设立，主体由杭州迁移至苏州工业园区自贸区创意产业园；注册资本116.96万元，参保员工仅8人，属微型初创Fabless集成电路设计企业，无自有晶圆制造、封测产线，全部生产环节依托外部供应链外协完成。</p>
+        <p>股权融资：实际控制人何举帅通过直接持股+员工持股平台杭州玄德绝对控股，自然人合伙人汤宏凯为联合创始人，外部机构股东仅杭州长江创投持股5%；股权高度集中、层级简单，仅完成一轮种子/天使级小额融资。</p>
+        <p>核心团队：核心研发人员基数过少，研发、市场、运营体系未搭建完成。</p>
+        <p>主营产品：聚焦物联网低功耗MCU、数模混合信号芯片、传感器配套ASIC、工业控制小型辅助芯片；应用场景为智能家居、可穿戴设备、工业传感模块；商业模式为IP自研→晶圆厂流片代工→第三方封测→销售+定制设计服务。公开信息无已量产芯片、无公开客户、无营业收入披露，停留在芯片研发、流片验证前置阶段。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①区位产业禀赋：苏州工业园区半导体产业链完整，就近对接和舰科技、华润上华等代工厂及长电科技、通富微电等封测龙头，可享园区研发补贴与税费减免；②股权治理干净：实控人高度集权、决策链条短，未来多轮融资、股改、激励的架构调整阻力小；③IoT MCU属国内半导体国产替代重点细分领域，受国家集成电路产业政策长期支持。</div>
+        <div class="risk-box">①团队与产能极弱：仅8人，不具备大批量迭代与承接大客户订单能力；②商业化阶段靠前：无营收、无量产、无订单背书，估值锚仅依托团队背景与赛道方向；③物联网MCU为高度红海市场，兆易创新、乐鑫科技、芯海科技等上市企业规模碾压；④资本储备薄弱：芯片流片、测试、量产持续大额投入，自持现金流承压，递进式融资若中断将面临存续风险。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高风险早期微型标的，估值主观性强，仅适合风险承受力极强的天使资本小额试水；须设置里程碑回购条款对冲研发失败与融资断裂风险。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业并购退出，综合可行性最高）：触发条件为企业3-5年内完成1-2款成熟芯片量产、形成稳定营收与发明专利；潜在买方为兆易创新、芯海科技、乐鑫科技、纳芯微等同赛道上市公司及智能硬件终端上市企业；交易落地快、溢价有弹性。</div>
+        <div class="exit-box">路径二（后续融资轮次老股转让，中期流动性路径）：在公司Pre-A/A/B轮递进融资中由后续PE/VC与产业投资方承接老股，可分批次兑现但高度依赖融资节奏，早期转让普遍存在估值折价。</div>
+        <div class="exit-box">路径三（北交所IPO，中长期重资产化路径）：完成股改并满足北交所创新型中小企业财务指标后申报，整体周期约5-7年，财务门槛相对包容，是该体量芯片公司独立上市最贴合板块。</div>
+        <div class="exit-box">路径四（科创板IPO，可行性最低）：以当前微型体量达标需8年以上周期，叠加半导体IPO审核趋严，仅作远期终极设想。</div>
+        <div class="exit-box">路径五（创始股东约定股权回购，兜底保障）：设置业绩里程碑回购条款，按约定年化收益率回购投资方股权，仅作本金兜底、不产生超额收益。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat2">
+  <div class="company-header">
+    <span class="idx">5.</span>
+    <span class="name">相干科技（北京）</span>
+    <span class="tag">超导量子全栈工程化服务商</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称相干（北京）科技有限公司（Xoherence），2023年10月25日成立，注册地北京市海淀区，依托北京量子信息科学研究院科研成果转化；注册资本658.7万元，2026年参保约20人；设全资子公司相干（南京）科技（产业化基地）与相干云（北京）量子科技（量子算力云平台），完成北京研发+南京制造+云端服务布局。</p>
+        <p>股权融资：2026年2月完成超亿元Pre-A轮融资；2026年6月4个月内追加数亿元Pre-A+轮，由北京市量子产业基金领投，头部市场化PE集中入场；股东含北京市级量子专项基金、普华资本、国融工发、彬复资本等。</p>
+        <p>核心团队：创始人、董事长金贻荣为量子测控领域资深科研人员，搭建两层员工持股平台（北京氦九、氦十）绑定核心技术人员。</p>
+        <p>主营产品：①硬件层（当前核心收入）：超导量子比特测控系统、量子参量放大器、低温封装装置、脉冲发生与读取射频链路，覆盖10比特至1000比特超导量子芯片全套操控方案；②整机层：自研百比特级超导量子计算整机系统；③服务层：量子云计算平台，按算力调用收费的SaaS化模式。已申请量子比特保护封装结构、集成式量子输出链路等多项核心发明专利。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①科研源头壁垒高：脱胎北京量子信息科学研究院，技术起点远高于纯商业创业团队；②资本背书充足：市级政府引导基金+一线市场化PE联合投资，后续A/B轮接续通道通畅；③细分赛道差异化卡位：聚焦超导量子测控电子学这一卡脖子硬件环节，供应链不可替代性强；④政策红利高度倾斜：量子信息列入国家"十四五/十五五"战略前沿科技；⑤商业化路径清晰：科研仪器硬件先造血→迭代整机→云上算力规模化，递进式降低早期亏损压力。</div>
+        <div class="risk-box">①行业整体商业化周期极长：通用容错量子计算机距大规模商用仍有5-10年，短期市场仅限科研采购；②重资产持续高投入：低温设备、流片、云服务器集群均需大额资本持续输血；③赛道同业竞争加剧：本源量子、国盾量子、华为量子实验室均布局超导整机；④人员与产能规模受限：20余人团队，批量交付与全国渠道未搭建；⑤算力云付费客户培育难度大，B端付费规模化存在不确定性。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高成长潜力前沿标的，属于前沿赛道中落地进度靠前、现金流最可控的标的之一；适合长线产业资本与量子专项基金，投资周期5-7年以上。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业战略并购，综合可行性最高、核心首选）：3-5年内形成稳定测控仪器营收并完成数十台整机批量交付后，潜在买方包括国盾量子/本源量子（补齐超导测控硬件）、阿里云/华为/浪潮信息/中科曙光（布局量子算力基础设施）、科研仪器央企国企；可设计现金、股份置换、业绩对赌多种结构。</div>
+        <div class="exit-box">路径二（后续A/B/C轮次老股转让，中期流动性补充）：伴随估值抬升由后续PE/VC与产业战略方承接早期投资人老股，属一级市场早期项目最通用流动性方式，依赖硬科技融资环境。</div>
+        <div class="exit-box">路径三（科创板IPO，中长期核心独立资本化路径）：完美适用科创板第五套标准（未盈利前沿硬科技），整体周期约5-7年，二级市场公开减持收益天花板最高。</div>
+        <div class="exit-box">路径四（北交所IPO，备选兜底）：若营收、研发投入达不到科创板第五套严苛标准，退而申报北交所，门槛更低、审核更快，但流动性显著低于科创板。</div>
+        <div class="exit-box">路径五（创始股东股权回购，纯风险兜底）：约定量化里程碑回购条款，由创始团队及员工持股平台按约定年化收益率回购，仅作本金安全兜底工具。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat2">
+  <div class="company-header">
+    <span class="idx">6.</span>
+    <span class="name">幺正量子（合肥）</span>
+    <span class="tag">QCCD离子阱路线国内唯一</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称合肥幺正量子科技有限公司（UnitQC），2022年7月29日成立，注册地合肥高新区中安创谷科技园，注册资本849.2万元，2025年在册员工约60人；高新技术企业、科技型中小企业、安徽省专精特新中小企业，拥有省级首台套重大技术装备认定资质。</p>
+        <p>股权融资：由中科大郭光灿院士团队成果转化设立，核心负责人韩永建；2026年3月Pre-A轮数亿元（蚂蚁集团、吉利资本联合领投）；2026年8月A轮数亿元（深创投领投，社保基金、多家上市公司产业方跟投）；股东含兴泰资本、达晨财智、广发信德、普华资本等，资本结构极强。</p>
+        <p>核心团队：核心负责人韩永建、黄运锋等为量子信息领域资深科研人员，团队在离子阱方向拥有十余年实验室积累；设合肥中科量信、合肥蜗壳孺子牛两个员工持股平台。</p>
+        <p>主营产品：国内唯一专注QCCD（量子电荷耦合器件）架构离子阱量子计算企业，对标国际龙头Quantinuum，量子体积QV=32为国内离子阱路线公开最优；①硬件整机层：自研刀片型离子阱核心芯片、精密光学系统、量子测控电子学，单台整机售价数千万元级，已交付6台离子阱整机并完成泰国朱拉隆功大学海外项目；②软件算法层：量子线路编译软件、仿真算法库；③算力服务层：量子云SaaS平台。全资设立天津幺正光电负责核心光学元器件自研。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①技术路线稀缺性壁垒极高：国内60%以上企业扎堆超导，幺正独家深耕QCCD可规模化纠错架构，差异化竞争格局清晰；②顶尖科研团队+院士院所背书：中科大郭光灿院士实验室成果直接作价转化，知识产权源头可控；③资本结构极强：社保基金国家级长期资本+蚂蚁/吉利深度产业资本+政府引导基金+头部PE，后续B/C轮募资通道顺畅；④合肥量子产业集群区位红利；⑤商业化落地已有验证：6台整机国内交付+泰国海外项目，工程化交付能力得到市场验证。</div>
+        <div class="risk-box">①行业整体商用周期极度漫长：通用容错量子计算机规模化落地普遍预判在2030年之后，未来3-5年收入高度依赖科研经费采购；②QCCD离子阱研发与制造成本高昂：光学、真空、超精密加工工艺难度极大，单台投入高、量产降本难度大；③多技术路线并行的路线迭代风险：若其他路线率先突破容错算力，公司单一押注价值受冲击；④同业竞争持续加剧：本源、国盾已布局离子阱技术储备，华为、阿里、腾讯大厂自研整机；⑤60人团队限制大规模交付能力。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高潜力稀缺路线标的，估值由独家QCCD技术路线、院士团队背书、已落地整机业绩、两轮顶级资本背书四大要素构成；适合国家级母基金、产业资本与长期PE，投资周期5-7年以上。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业战略并购，综合可行性最高、核心首选）：3-5年内实现年交付多台离子阱整机并搭建可商用量子算力云平台后，潜在买方包括国盾量子/本源量子（补齐离子阱QCCD路线）、阿里云/华为/中科曙光/浪潮信息、蚂蚁集团/吉利控股（战略股东赋能主业）、科研仪器央企；国际对标Quantinuum已纳斯达克上市验证路线价值。</div>
+        <div class="exit-box">路径二（后续B/C/D轮一级市场老股转让，中期流动性补充）：伴随比特规模迭代、营收增长、估值抬升，由后续PE/VC与产业战略方承接早期投资人存量老股，是A轮前项目最通用流动性方式。</div>
+        <div class="exit-box">路径三（科创板IPO独立上市，中长期核心资本化路径）：完美适用科创板第五套标准，市场普遍预判2027-2028年启动申报，整体周期约5-7年，二级市场收益天花板最高。</div>
+        <div class="exit-box">路径四（北交所IPO，备选兜底上市方案）：若后期营收体量、专利先进性未达科创板第五套标准，退而申报北交所专精特新板块，估值中枢低于科创板。</div>
+        <div class="exit-box">路径五（创始股东股权回购，纯风险兜底）：约定量化里程碑回购条款，由创始团队及员工持股平台按约定年化收益率回购，对冲研发失败、融资断裂、路线被颠覆风险。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="cat3"><div class="cat-header cat3"><span class="num">3</span>量子光学元器件、光子芯片、非线性光学晶体<span class="desc">光量子/中性原子/QKD共用</span></div>
+<div class="company-card cat3">
+  <div class="company-header">
+    <span class="idx">1.</span>
+    <span class="name">量子芯光科技（合肥）</span>
+    <span class="tag">光量子上游光学元器件</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称量子芯光科技（合肥）有限公司，注册于合肥高新区（国家量子科学中心核心承载区），为聚焦光量子底层核心光学元器件、量子光源、集成光子芯片的硬科技初创企业；已取得科技型中小企业、高新技术企业入库资质，小微研发型主体。</p>
+        <p>股权融资：创始科研团队为绝对实控人，设员工持股平台绑定核心光学、芯片研发人员；外部股东以合肥高新区国有产业引导基金、早期天使创投机构为主，暂无大额产业战略资本，股权架构干净、无历史代持。</p>
+        <p>核心团队：核心创始团队脱胎于中科大中科院量子信息重点实验室，深度绑定"九章"光量子计算科研体系，核心研发人员长期深耕量子纠缠光源、非线性光学、硅光集成芯片、单光子探测系统。</p>
+        <p>主营产品：①量子光源核心硬件：高纯度量子纠缠光子源、单光子/双光子发生器、外腔窄线宽量子激光器、非线性频率变换模块、高保真光子干涉调控光路系统，供给国内高校、中科院院所及硅臻芯片、玻色量子、图灵量子等整机企业；②集成光量子芯片与光电器件：硅基/氮化硅/铌酸锂光量子集成芯片、片上纠缠源芯片、量子随机数发生器（QRNG）光学熵源模组；③系统集成与技术服务。对标海外PsiQuantum、ORCA等光子量子光源厂商。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①上游赛道卡位稀缺、不可替代性强：光量子整机无法脱离高质量纠缠光子源运行，国内深耕该方向的专业化厂商极少，国产替代逻辑刚性极强；②中科大顶尖院所技术背书：依托潘建伟院士团队"九章"实验室技术沉淀，量子光源与片上光子集成具备国内第一梯队水平；③合肥量子产业集群全方位红利：研发补贴、场地租金减免、人才个税返还等政策加持；④双市场抗风险结构：同时覆盖量子计算科研硬件+量子安全加密芯片两大下游，量子随机数安全芯片可提前落地变现。</div>
+        <div class="risk-box">①行业产业化兑现周期超长：通用光量子容错计算机规模化商用普遍预判在2030年之后，短期核心大客户局限于体制内科研经费采购；②精密光学研发量产成本高、工艺壁垒重，持续大额资本迭代烧钱；③多技术路线并行竞争的系统性风险：若其他路线率先突破容错比特，光量子赛道投入收缩直接压缩上游器件空间；④团队产业化交付能力薄弱：缺乏大批量量产供应链与全国销售渠道；⑤同业上游厂商挤压：国迅量子芯、光迅科技等成熟企业具备产能资金优势。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高风险早期上游卡位标的，估值由光量子上游稀缺卡位、中科大技术转化壁垒、双业务变现闭环、合肥政策红利四大要素构成；适合量子专项基金与长线产业资本，投资周期5-7年以上。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业上市公司战略并购，综合可行性最高、核心首选）：3-5年内实现量子光源批量稳定供货并进入2-3家头部光量子整机企业核心供应链后，潜在买方包括国盾量子/本源量子/玻色量子（光量子上游供应链）、光迅科技/中际旭创/铌酸锂光芯片厂商（技术卡位）、通信安全/密码科技上市公司、合肥本地量子国资平台。</div>
+        <div class="exit-box">路径二（A/B/C轮一级市场老股转让，中期流动性补充）：伴随产品营收增长与估值抬升，由后续PE/VC与产业战略投资方承接早期投资人老股，依赖一级市场融资景气度。</div>
+        <div class="exit-box">路径三（科创板IPO独立上市，中长期核心资本化路径）：适用科创板第五套标准，已有国盾量子、本源量子上市先例，完整周期约5-7年，二级市场收益天花板最高。</div>
+        <div class="exit-box">路径四（北交所IPO，备选兜底上市路径）：若营收体量、技术先进性未达科创板第五套标准，退而申报北交所专精特新板块，估值中枢低于科创板。</div>
+        <div class="exit-box">路径五（创始团队股权回购，纯风险兜底）：约定量化里程碑回购条款，由创始实控人及员工持股平台按约定年化收益率回购，仅作本金安全兜底工具。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat3">
+  <div class="company-header">
+    <span class="idx">2.</span>
+    <span class="name">辰星光学（北京）</span>
+    <span class="tag">中性原子自由空间光学系统</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：辰星光学（北京）有限公司，依托北京量子信息科学研究院、北大冷原子物理实验室成果转化落地，为国内少数专门对标中性原子量子计算全链路自由空间光学系统的上游硬件厂商；全职研发人员20-30人，无自有量产加工厂房，光学镜片、真空结构件全部外协精密加工（Fabless轻资产模式）；已入库科技型中小企业。</p>
+        <p>股权融资：创始科研团队为绝对控股股东，设员工持股平台；外部股东仅天使轮两家机构——红杉中国种子基金、中关村前沿基金，天使轮2200万元，股权结构极简干净。</p>
+        <p>核心团队：核心创始团队为长期深耕中性原子量子计算、自由空间量子光路、激光光束调控方向的博士科研团队。</p>
+        <p>主营产品：①自由空间光量子分束器（低损耗、高消光比偏振/非偏振分束模块）；②相位延迟器（高精度液晶相位延迟片、晶体相位调制模块）；③超高精度光学干涉平台（纳米级位移闭环干涉光路系统，可延伸量子惯性导航、原子重力仪）；④中性原子激光偏转阵列（AOD阵列、二维激光扫描光路系统，直接决定中性原子量子比特阵列规模化扩展能力）。解决Thorlabs、Toptica等海外进口光学系统的国产替代痛点。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①中性原子细分上游赛道极度稀缺：国内专门啃中性原子全套自由空间精密光学硬骨头的专业化厂商极少，产品不可替代、国产替代政策采购导向强；②北京顶级科研院所技术源头壁垒：对中性原子激光偏转、光镊光路、原子干涉物理底层理解深刻，专利围绕光束调控形成闭环；③双机构股东赋能：中关村前沿基金（海淀国资）对接北京量子项目与补贴，红杉种子提供后续融资背书与资本化辅导；④轻资产研发模式抗风险强：2200万天使轮可支撑3-4年完整产品迭代。</div>
+        <div class="risk-box">①中性原子商用周期漫长：通用容错中性原子量子计算机产业化普遍预判2030年之后，未来3-5年收入依赖高校院所财政预算；②精密光学器件量产良率爬坡成本高；③多量子技术路线并行迭代风险：若超导或光量子率先突破，中性原子赛道投入收缩；④大厂跨界降维竞争：光迅科技、舜宇光学、腾景科技等成熟光电上市公司低成本切入；⑤20余人纯研发团队，大批量交付存在组织瓶颈。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高风险早期稀缺卡位标的，估值锚定稀缺细分赛道、独家产品壁垒、双头部机构背书、量子计算+精密测量双变现闭环；适合长线硬科技基金，投资周期5-7年以上。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业战略并购，首选、确定性最高）：3-5年内实现激光偏转阵列、干涉平台批量稳定供货并进入2-3家头部中性原子整机企业核心供应链后，潜在买方包括向量奇点、两仪万象等中性原子整机头部项目，腾景科技、光迅科技、长光华芯、舜宇光学等光电上市企业，量子精密测量/军工惯性导航央企平台。</div>
+        <div class="exit-box">路径二（A/B轮一级市场老股转让，中期流动性补充）：早期天使轮项目最通用流动性方式，可分批次套现，依赖中性原子赛道资本热度。</div>
+        <div class="exit-box">路径三（科创板独立IPO，中长期收益天花板最高）：完美适用科创板第五套标准，完整周期约5-7年，需持续高强度研发投入并构建体系化专利组合。</div>
+        <div class="exit-box">路径四（北交所IPO，备选兜底）：营收、研发规模未达科创板第五套标准时退而申报北交所专精特新板块。</div>
+        <div class="exit-box">路径五（创始团队股权回购，纯风险兜底）：约定量化里程碑回购条款，由创始实控人及员工持股平台按约定年化收益率回购，对冲研发失败、路线被颠覆风险。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat3">
+  <div class="company-header">
+    <span class="idx">3.</span>
+    <span class="name">宏腾量子（深圳）</span>
+    <span class="tag">NV色心量子精密测量+设备代理</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称宏腾量子技术（深圳）有限公司，2025年6月17日成立，注册地深圳南山科技园北科大厦，注册资本500万元，自然人独资小微企业，法定代表人、唯一股东姜海宏，参保人数0；曾用名深圳市宏腾半导体技术有限公司，2025年11月正式更名带"量子"字号，战略方向从半导体设备代理商升级为量子精密测量+量子芯片制备设备服务商；无外部机构融资、无员工持股平台。</p>
+        <p>股权融资：创始人100%控股的极早期创业项目，尚未完成任何外部融资。</p>
+        <p>核心团队：创始团队极早期，无成熟研发、生产、市场、售后团队建制。</p>
+        <p>主营产品：①自研核心产品金刚石量子探针扫描仪MKW-QD-200（基于NV色心量子传感原理，空间分辨率1μm、nT级磁场灵敏度、mK级温度探测精度，应用于量子芯片微波场表征、半导体晶圆缺陷无损检测、军工惯性传感标定）；②代理集成设备：瑞士PVD/ALD集群镀膜机、芬兰VEECO原子层沉积、英国Korvus多腔体电子束蒸发、无掩膜激光直写光刻机、激光快速退火炉（250万-860万元/台）等量子芯片制备微纳工艺设备。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①双业务抗风险结构：设备代理属成熟贸易、回款周期短，可持续反哺自研量子传感仪器研发，兼顾短期生存与长期估值；②深圳产业集群区位红利：南山聚集半导体Fab与高校量子实验室，客户触达成本低；③量子精密测量商业化落地周期最短：NV色心量子磁场扫描仪当下即可在科研、半导体检测领域变现；④切入量子芯片制备上游刚需设备赛道：超导/光量子芯片量产必须依赖PVD、ALD、电子束光刻等真空微纳设备。</div>
+        <div class="risk-box">①股权结构极不完善：100%自然人独资、无机构背书、无股权激励，后续融资与股改需彻底重构架构，资本化基础薄弱；②自研产品单一、技术壁垒厚度不足：NV色心量子传感国内已有多家布局，先发优势不明显；③核心盈利依赖设备贸易、科技属性偏弱：自研高附加值仪器尚未规模销售，硬科技估值逻辑易被质疑；④行业竞争挤压：北方华创、拓荆科技等国产装备厂商延伸，国盾、本源等同步布局NV金刚石探测；⑤创始团队规模极小、产业化交付能力有限。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高风险极早期标的，距离科创板第五套上市标准至少3-5年差距；仅适合种子/天使级小额试水，投资前需以重构股权架构、引入机构股东为前提。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业上市公司战略并购，首选、确定性最高）：3-5年内完成金刚石量子探针系列批量销售并进入半导体头部封测/军工检测供应链后，潜在买方包括国盾量子/本源量子（补齐量子精密测量硬件）、北方华创/拓荆科技/沈阳科仪（量子芯片工艺设备+检测仪器）、莱伯泰科/聚光科技、军工惯性导航央企平台。</div>
+        <div class="exit-box">路径二（多轮融资后一级市场老股转让，中期流动性补充）：完成天使轮→A轮→B轮递进融资、估值逐级抬升后由后续PE/产业方承接老股，但项目贸易属性偏强大概率出现估值折价。</div>
+        <div class="exit-box">路径三（科创板独立IPO，中长期收益天花板最高）：需彻底优化一人独资结构、自研量子传感仪器形成千万级主营收入并累计数十项发明专利，整体周期5-7年。</div>
+        <div class="exit-box">路径四（北交所IPO，兜底备选）：若科创板申报条件无法达标，申报北交所专精特新板块，门槛更低但估值中枢低。</div>
+        <div class="exit-box">路径五（创始团队股权回购，极端风险兜底）：约定量化回购条款，仅用于对冲极早期项目研发失败、融资受阻、团队解散等尾部风险。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat3">
+  <div class="company-header">
+    <span class="idx">4.</span>
+    <span class="name">铌奥光电（南京）</span>
+    <span class="tag">薄膜铌酸锂光子芯片量产龙头</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称江苏铌奥光电科技有限公司，2020年7月10日成立，注册地南京鼓楼区，广州设全资子公司广州铌奥半导体；国家级高新技术企业、江苏省专精特新中小企业、2025国家级潜在独角兽；已搭建薄膜铌酸锂芯片设计-晶圆制造-封装测试全栈自主工艺产线，为国内极少数实现TFLN高速光芯片规模化量产企业。</p>
+        <p>股权融资：Pre-A轮（2022.11南京产业基金）→A轮（2023.04数亿元，基石资本领投、毅达资本等跟投，建成国内首条量产产线）→A+轮（2025.02近1亿元，金浦智能领投）→B轮（2026.08数亿元，高瓴创投、云锋基金、联想创投、诚通科创、国开科创领投，老股东全部追加）；国资+头部财务VC+产业资本组合，资本化基础扎实。</p>
+        <p>核心团队：创始人、董事长蔡鑫伦教授（华中科技大学本硕、英国布里斯托尔大学博士、中山大学博导，国内薄膜铌酸锂光子芯片领域顶尖专家，研究成果多次入选中国光学十大进展）；核心团队由海归光电子科学家、光模块大厂产业化高管组成。</p>
+        <p>主营产品：①AI数据中心数通高速调制器芯片（800G DR4/DR8、1.6T DR8、3.2T DR8短距薄膜铌酸锂调制器，1.5V超低驱动电压，直供全球头部光模块厂商）；②电信骨干相干通信IQ调制器（1.6T ZR PDM-IQ相干光芯片）；③超高带宽科研及前沿器件（67GHz/110GHz超大带宽强度调制器，应用于微波光子仪器、激光雷达、量子纠缠光源、量子精密测量）。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①全链条自研量产壁垒：国内极少数打通薄膜制备、光波导刻蚀、异质集成、高速封装全套工艺的厂商，摆脱海外设备工艺卡脖子；②AI算力行业高度景气红利：全球大模型驱动800G向1.6T/3.2T迭代，薄膜铌酸锂是高端高速光模块最优路线、市场空间百亿级；③股东资源赋能拉满：联想创投对接算力生态、广州产投对接半导体产业链、高瓴/云锋提供资本市场资源；④跨赛道抗周期属性：主业绑定算力通信刚需，副业布局激光雷达、量子光学两大前沿赛道。</div>
+        <div class="risk-box">①行业头部竞争加剧：光迅科技、长光华芯、华为海思、Lumentum等巨头加速布局，未来价格战压缩毛利率；②重资产扩产持续资本消耗：需C轮、D轮持续大额融资；③技术路线替代风险：硅光、磷化铟、异质融合等路线若成本端突破会分流市场份额；④下游客户集中度偏高：短期营收高度依赖头部光模块大厂。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">优质成长型硬科技标的，B轮估值由量产龙头稀缺性、AI算力业绩兑现确定性、顶级机构重仓背书、三赛道长期成长溢价四大支柱构成；盈利验证速度较快，适合产业资本与长期PE，投资周期3-5年。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业上市公司战略并购，首选、落地确定性最高）：3-4年内完成AI高速铌酸锂调制器芯片大批量供货并绑定2家以上头部光模块上市公司后，潜在买方包括中际旭创/新易盛/光迅科技/华星光电（补齐下一代芯片自研）、源杰科技/腾景科技/三安光电、禾赛/速腾聚创/德赛西威（车载激光雷达）、国盾量子/本源量子（光量子上游器件）。</div>
+        <div class="exit-box">路径二（C/D轮后续融资一级市场老股转让，中期流动性补充）：引入国家级半导体大基金与更多产业龙头资本后，由后续PE/产业投资方承接高瓴、云锋等B轮老股份额，依赖赛道资本市场热度。</div>
+        <div class="exit-box">路径三（科创板独立IPO，中长期收益天花板最高）：高度适配科创板第五套标准，整体周期约3-5年，需累计上百项核心发明专利并形成稳定年度营收。</div>
+        <div class="exit-box">路径四（北交所IPO，兜底备选）：若科创板第五套指标短期未达标，申报北交所专精特新板块，审核更快但流动性低。</div>
+        <div class="exit-box">路径五（创始团队/大股东股权回购，极端风险兜底）：约定回购条款，仅对冲行业技术颠覆、量产失败、赛道热度断崖等极端尾部风险。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat3">
+  <div class="company-header">
+    <span class="idx">5.</span>
+    <span class="name">津镭光电（上海）</span>
+    <span class="tag">飞秒激光微纳加工+光纤传感</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称上海津镭光电科技有限公司，2021年7月1日成立，注册地上海嘉定菊园新区，北京、苏州设研发与生产分部，员工50余人；国家级高新技术企业、上海市专精特新中小企业、国家级科技型中小企业，注册资本139.76万元。</p>
+        <p>股权融资：2026年3月完成天使轮融资（北航投资、高信资本），处于天使轮→Pre-A轮过渡阶段；已搭建员工持股平台，股权架构清晰、无历史纠纷。</p>
+        <p>核心团队：核心研发团队来自北大、南开、天大等光学强校，聘请中科大、北大、华科光学教授担任技术顾问；与北大、中科大、南开等几十所双一流高校共建光量子芯片、超快微纳加工联合实验室。</p>
+        <p>主营产品：底层核心技术为飞秒激光超快直写微纳加工技术，构建装备自研→光子芯片/光器件制造→行业传感系统落地垂直全链条：①高端科研精密装备（飞秒激光三维光波导直写系统、飞秒激光光纤光栅自动化加工系统、无掩膜激光直写光刻机，单台售价50万-100万元）；②自研核心光子器件（飞秒激光直写FBG光纤光栅系列、3D集成光波导、适配铌酸锂薄膜芯片的微纳加工代工服务）；③行业传感系统（风电叶片应力温度监测、储能热失控预警、航空航天结构健康检测）。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①双业务完美对冲周期风险：工业光纤传感成熟赛道持续造血+光量子芯片制备设备布局前沿，兼顾短期盈利与长期量子题材估值；②飞秒激光直写技术稀缺壁垒：国内能自主量产三维光量子芯片/铌酸锂光波导制备系统的厂商极少，属量子光子集成上游卡脖子科研仪器；③股东与产学研资源赋能：北航投资绑定北航量子实验室资源打通高校订单；④轻资产研发模式压力小：天使轮资金足以支撑3-4年技术迭代。</div>
+        <div class="risk-box">①极早期天使轮、体量偏小：营收以零散科研设备订单为主，工业传感尚未大规模批量落地；②科研设备业务天花板有限：高校实验室采购属存量市场，长期增长上限不如工业物联网传感；③行业竞争多方挤压：大族激光、华工科技可向下延伸科研精密设备，中航电测、理工光科占据传感主流客户，海外相干、Thorlabs垄断高校市场；④后续多轮融资存在不确定性。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高风险早期标的，估值锚定飞秒激光直写稀缺卡位、风电储能传感现金流兜底、北航产业资源、上海政策红利四点；适合光电/新能源产业基金与长线VC，投资周期4-6年。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业上市公司战略并购，首选、确定性最高）：3-4年内完成光纤光栅风电/储能传感系统千万级工业营收并批量供货2家以上光量子头部企业后，潜在买方包括理工光科/中航电测/康斯特（补齐FBG全套硬件）、大族激光/华工科技/长光华芯、国盾量子/铌奥光电/源杰科技（量子制备设备）、新能源储能风电央企平台。</div>
+        <div class="exit-box">路径二（多轮融资后一级市场老股转让，中期流动性兜底）：天使轮→Pre-A→A轮→B轮递进融资中由后续PE/产业资本承接北航投资、高信资本等早期机构老股，早期项目普遍存在估值折价。</div>
+        <div class="exit-box">路径三（科创板独立IPO，中长期收益天花板最高）：适配科创板第五套标准，完整周期约4-6年，需工业光纤传感业务成为第一大收入来源。</div>
+        <div class="exit-box">路径四（北交所IPO，兜底备选）：若科创板第五套指标短期无法达成，申报北交所专精特新板块。</div>
+        <div class="exit-box">路径五（创始团队大股东股权回购，极端风险兜底）：约定量化回购条款，仅对冲研发失败、商业化受阻、赛道资本退潮等尾部风险。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat3">
+  <div class="company-header">
+    <span class="idx">6.</span>
+    <span class="name">矩量光启（上海）</span>
+    <span class="tag">硅基超导量子芯片工业化流片</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称上海矩量光启计算技术有限公司，2025年7月3日成立，注册地上海徐汇漕河泾半导体产业园，注册资本1107.69万元，参保6人；定位"量子时代的仙童半导体"，国内首家规模化落地硅基超导量子芯片工业化流片初创企业，对标IBM、谷歌超导路线。</p>
+        <p>股权融资：种子轮（2026年4月数千万元，千乘资本、德同资本联合半导体设备产业方）→天使轮（2026年5月2亿元大额天使融资，和利资本、钧山资本领投，中芯聚源（中芯国际旗下）重磅入股，老股东超额追加）；中芯聚源直接打通国内最核心工业半导体产线资源。</p>
+        <p>核心团队：创始人、董事长于文龙博士（中科大应用物理本科、美国佐治亚理工物理学博士，曾任美国桑迪亚国家实验室、阿里巴巴达摩院、姑苏实验室，深耕超导量子芯片工程化落地）；跨学科复合团队覆盖超导物理、8/12寸晶圆工艺、低温制冷、微波测控、量子软件。</p>
+        <p>主营产品：核心壁垒为硅（Si）衬底超导量子芯片+TSV硅通孔先进封装工艺，完全兼容8/12寸标准半导体晶圆产线：①硅基超导量子处理器芯片（8寸工业晶圆流片，2026年内落地百比特原型整机）；②量子测控整机系统（自研微波脉冲发生器、低温稀释制冷机国产化集成）；③量子操作系统与算力云平台。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①硅基工业化路线独家稀缺壁垒：国内超导量子企业绝大多数沿用实验室蓝宝石衬底，矩量光启绑定中芯产线实现硅基工业流片，产业化天花板、成本、可扩展性甩开同行；②天使轮顶级豪华股东矩阵：中芯聚源锁定晶圆产能、和利/钧山/德同提供资本通道、半导体设备股东解决供应链；③团队极强工程化落地能力：创始人及团队均有海外国家实验室/大厂量产项目经验；④上海区位半导体产业集群红利；⑤超导路线为全球巨头主流方向，政策持续倾斜。</div>
+        <div class="risk-box">①行业极早期、商业化兑现周期极长：通用容错量子计算机产业化至少8-10年，未来3-5年仅靠科研仪器和小规模算力产生微薄营收，持续大额烧钱；②多技术路线并行竞争迭代风险：中性原子等路线若率先实现千比特突破，超导估值被分流；③超导赛道头部巨头挤压：本源、中科院体系、华为、阿里、腾讯全面布局；④重资产持续融资依赖度极高；⑤硅基衬底技术瓶颈：硅材料极低温下介电损耗、相干时间弱于蓝宝石，存在研发失败风险。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">超早期高潜力标的，天使轮估值由国内唯一硅基工业流片差异化壁垒、中芯系产业资本背书、海外顶尖工程团队稀缺性、超导主流路线溢价四大支柱构成；适合国家级母基金与长线产业资本，投资周期6-8年以上。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业上市公司战略并购，首选、兑现效率最高）：3-5年内顺利交付多台百比特原型机并验证硅基路线核心性能后，潜在买方包括本源量子/国盾量子（补齐硅基工业化路线）、中芯国际产业链/北方华创/拓荆科技/长电科技（量子先进封装与晶圆工艺）、中科曙光/浪潮信息（经典+量子混合算力）、低温制冷/微波电子设备上市企业。</div>
+        <div class="exit-box">路径二（A/B/C轮后续融资一级市场老股转让，中期流动性兜底）：天使轮→A轮（容错攻关）→B轮（中试线）→C轮（商业化放量）递进融资中由后续PE/产业资本承接天使轮老股份额，长线前沿项目普遍存在估值折价。</div>
+        <div class="exit-box">路径三（科创板独立IPO，中长期收益天花板最高、终极退出方案）：完美适配科创板第五套标准，完整周期约6-8年，需累计上百项核心发明专利并形成持续性年度营收。</div>
+        <div class="exit-box">路径四（北交所IPO，兜底备选资本化方案）：若科创板第五套硬核指标长期无法达标，申报北交所专精特新板块，流动性远低于科创板。</div>
+        <div class="exit-box">路径五（创始团队/大股东股权回购，极端尾部风险兜底）：约定量化回购条款，仅对冲技术研发失败、赛道资本断崖退潮、核心团队解散等极端尾部风险。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat3">
+  <div class="company-header">
+    <span class="idx">7.</span>
+    <span class="name">合肥硅臻芯片</span>
+    <span class="tag">量子安全芯片+光量子计算双轮</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称合肥硅臻芯片技术有限公司，2020年2月成立，注册地合肥高新区（合肥综合性国家科学中心核心承载区），2025年员工34人；国家级高新技术企业、科技型中小企业、安徽省首台套重大技术装备企业，南京、上海设分支机构。</p>
+        <p>股权融资：早期天使轮合肥市量子产业基金入局；产业战略入股为核心里程碑——国芯科技（688262.SH）两轮合计2000万元投资持股10.83%，为团队外第一大外部股东；2025年5月A轮祥峰Vertex投资数千万元（指数资本FA）；2026年启动新一轮融资；股权结构为创始团队控股+国芯科技产业资本+祥峰财务VC+合肥国资基金。</p>
+        <p>核心团队：首席科学家任希锋教授（中科大博导、国家杰青，国内光量子集成芯片权威专家，主持多项国家级量子重点研发计划）；董事长丁禹阳、总经理刘午为产业落地型管理团队，具备芯片商业化量产与政企客户拓展经验。</p>
+        <p>主营产品：①量子安全商用芯片（核心营收支柱）：QRNG-10量子随机数发生器芯片（国内最小尺寸4×4mm硅基集成真随机数芯片，通过国家密码管理局商用密码检测，2024年实现10K级晶圆批量出货，服务电力、运营商、金融等近百家客户，和国芯科技联合推出量子密码卡并嵌入本源量子悟空量子计算机）；②光量子计算核心集成芯片：硅基可编程多光子纠缠源芯片、MBQC测量型光量子系统，2026年实现片上16量子比特GHZ纠缠态突破；③硅光芯片流片代工与封装服务。协同中核集团完成硅-28同位素晶圆国产化验证。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①独一无二的"成熟现金流+前沿量子"双轮抗周期模式：量子安全芯片当下即可盈利，用成熟业务反哺光量子计算长线研发，现金流韧性量子赛道第一梯队；②中科大杰青学术团队+国芯科技深度产业绑定双重壁垒：上市公司提供资本加持、控制芯片配套、客户导流、密码资质背书；③MBQC光量子技术路线可扩展性稀缺：片上测量型架构降低多光子纠缠资源损耗，被验证为百万比特光量子计算机可行路径；④合肥量子科学中心政策全维度加持；⑤商用密码资质构筑行业准入护城河（国密局官方检测认证）。</div>
+        <div class="risk-box">①光量子计算商业化兑现周期极长：通用光量子计算机大规模商用预计2032年之后，长线研发仍需多轮大额资本投入；②多条量子技术路线并行竞争：若其他路线率先实现容错突破，光量子估值被分流；③量子安全赛道存量玩家挤压：问天量子、中电信量子、国盾量子均布局QRNG产品，价格竞争压缩毛利率；④团队规模偏小（34人）、产能与交付能力受限；⑤光子芯片流片依赖外部代工厂，产能交付存在外部约束。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高风险高潜力标的，A轮估值锚定中科大杰青学术壁垒、QRNG已验证造血能力、国芯科技产业绑定、MBQC前沿技术溢价四大支柱；适合产业资本与长线PE，投资周期5-7年，量子安全业务提供现金流缓冲。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业上市公司战略并购，首选、兑现效率最高）：3-5年内量子安全芯片形成稳定千万级营收并完成MBQC百比特原型机定型后，最大概率买方为已入股上市公司国芯科技（688262，直接整体并购补齐光量子硬件能力）；其他潜在买方包括国盾量子/本源量子、铌奥光电/光迅科技/源杰科技/中际旭创、卫士通/数字认证（商用密码央企平台）。</div>
+        <div class="exit-box">路径二（B/C轮后续融资一级市场老股转让，中期流动性兜底）：A轮→B轮→C轮递进融资中由后续PE/产业资本承接祥峰、国芯科技等老股份额，依赖量子、半导体、密码赛道资本市场热度。</div>
+        <div class="exit-box">路径三（科创板独立IPO，中长期收益天花板最高、终极方案）：高度适配科创板第五套标准，完整周期约5-7年，需累计上百项光量子/MBQC/量子安全芯片核心专利。</div>
+        <div class="exit-box">路径四（北交所IPO，兜底备选资本化方案）：若科创板第五套指标短期无法达标，申报北交所专精特新板块，估值中枢低于科创板。</div>
+        <div class="exit-box">路径五（大股东/创始团队股权回购，极端尾部风险保障）：约定量化回购条款，仅对冲技术研发失败、行业路线颠覆、资本赛道断崖退潮等极端尾部风险。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="cat4"><div class="cat-header cat4"><span class="num">4</span>量子特种功能材料<span class="desc">底层原材料上游</span></div>
+<div class="company-card cat4">
+  <div class="company-header">
+    <span class="idx">1.</span>
+    <span class="name">晶拓超导材料（合肥）</span>
+    <span class="tag">超导量子芯片上游核心耗材</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：晶拓超导材料（合肥）有限公司落地合肥高新区，依托合肥综合性国家科学中心、中科大量子实验室、本源量子产业园完整量子产业集群，为聚焦超导量子计算芯片上游核心超导耗材的专精特新新材料企业，解决超导量子芯片制造关键材料国产化替代问题。</p>
+        <p>股权融资：Pre-A轮融资总额3600万元，两大核心国资背景投资方为合肥量子产业基金（合肥市政府量子产业专项引导基金）与中科大成果转化基金（中科大直属产业化基金）；股权架构干净，提前完成高校成果转化合规备案。</p>
+        <p>核心团队：依托中科大与合肥量子产业集群技术资源，产品低温性能测试、工艺迭代效率高。</p>
+        <p>主营产品：①超导薄膜类：超导量子芯片高纯铌薄膜、铝超导薄膜（用于制备量子比特核心约瑟夫森结，超导芯片最核心功能层）；②晶圆基底类：约瑟夫森结晶圆单晶基底（LAO/STO衬底，决定量子比特相干寿命，长期依赖日韩进口）；③低温超导屏蔽合金材料（稀释制冷机内部磁屏蔽）。本源量子定点核心国产材料供应商，已完成样品验证与小批量供货。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①头部客户提前锁单、商业化落地跑通：Pre-A轮阶段即绑定本源量子核心供应链，摆脱早期硬科技"只有技术没有订单"的最大痛点；②赛道刚需属性极强：超导薄膜、量子芯片衬底属不可替代卡脖子耗材，客户更换供应商成本极高；③商业模式抗周期：耗材属持续性重复采购，只要下游芯片持续迭代流片就有滚动经营性现金流；④股东具备持续募资能力：双国资背书，后续A/B轮扩产极易接续省市科创母基金与国家大基金追加；⑤完美适配科创板第四套（盈利专精特新）与第五套（未盈利前沿科技）两套审核标准。</div>
+        <div class="risk-box">①重化工新材料生产业态：高纯金属冶炼、超导薄膜镀膜涉及危化品使用与废水废气排放，环评、安全生产、环保运维成本高，长期侵蚀净利润率；②下游产业化进度高度绑定：营收完全依附超导量子芯片整机厂商迭代速度；③区域同业竞争：合肥本地夸夫超导、上超材料同赛道布局，存在技术同质化与价格内卷；④上游设备与原材料进口依赖：超高纯铌铝金属原料、单晶基底高精度抛光设备、超高真空溅射镀膜设备依赖海外采购。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高风险成长型材料标的，核心亮点为本源量子定点锁单+耗材模式抗周期+双国资背书；适合合肥国资基金与量子产业资本，投资周期4-6年。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（产业上市公司战略并购，第一优先级、兑现效率最高）：3-4年内建成规模化量产产线、对本源量子实现千万级年度耗材销售后，潜在买方包括本源量子（最优收购方，锁定上游供应链、一体化协同价值最大）、西部超导/上海超导/联创超导（超导新材料A股龙头）、江丰电子/有研新材（半导体靶材）、国盾量子（全产业链材料布局）。</div>
+        <div class="exit-box">路径二（A/B/C轮一级市场老股转让，第二优先级、中期流动性兜底）：Pre-A→A轮（产线中试）→B轮（规模化放量）中引入国家大基金与半导体材料产业资本，由后期机构承接前期国资老股份额，受赛道投融资热度影响存在估值折价。</div>
+        <div class="exit-box">路径三（科创板独立IPO，第三优先级、收益天花板最高）：盈利达标后申报科创板第四套标准，或依托量子前沿属性申报第五套标准；本源量子已在申报IPO、具备成熟申报先例，完整周期5-7年。</div>
+        <div class="exit-box">路径四（大股东股权回购，兜底方案）：Pre-A投资协议约定回购条款，若无法完成后续融资、规模化量产、并购或IPO，由创始团队及实控人按约定年化收益率回购。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat4">
+  <div class="company-header">
+    <span class="idx">2.</span>
+    <span class="name">金刚石量子材料科技（合肥）</span>
+    <span class="tag">NV色心量子材料国产化</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：金刚石量子材料科技（合肥）落地合肥高新区量子产业园，为聚焦金刚石NV色心固态量子核心衬底材料的上游专精特新材料企业，是合肥本源量子、国仪量子、国盛量子量子精密测量与金刚石量子计算的底层卡脖子上游原材料供应商，填补国内量子级高纯单晶金刚石、可控NV缺陷注入、金刚石量子晶圆加工国产化空白。</p>
+        <p>股权融资：普遍为Pre-A轮/天使轮、融资金额数千万元级别；核心战略投资方为合肥量子产业专项基金与中科大成果转化基金，产业战略跟投方包括本源量子产业平台、国仪量子关联产业资本。</p>
+        <p>核心团队：依托中科大固态自旋量子实验室技术成果转化，属合肥量子上游材料企业通用团队结构。</p>
+        <p>主营产品：①量子级单晶金刚石基材：带可控NV氮空位色心的高纯CVD单晶金刚石片、金刚石量子晶圆（室温固态量子计算唯一可规模化落地的核心固态材料）；②金刚石量子传感专用加工组件：量子磁力传感器基底、量子显微镜探头衬底、高压电力量子电流互感器核心金刚石芯片，直接供货国盛量子、国仪量子；③配套深加工与技术服务：高精度抛光、离子注入NV色心改性、低温量子性能测试代工。为合肥金刚石量子精密测量、固态量子计算全链条唯一国产核心基材定点供应商。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①赛道商业化落地确定性极强：金刚石NV色心量子精密测量是目前唯一大规模工业落地的量子应用（电力互感器、芯片无损检测、工业探伤、生物显微成像），上游金刚石基材为持续性消耗品、现金流优于超导长期研发项目；②技术壁垒极高、国产替代空间巨大：可控NV色心单晶生长、离子注入改性、纳米级抛光长期被海外垄断，国内量产厂商屈指可数；③合肥量子产业集群闭环赋能：就近对接中科大量子实验室、国仪量子、本源量子；④双赛道估值叠加：短期传感耗材稳定营收+长期室温金刚石固态量子计算机溢价；⑤下游头部企业锁单：直接供货国仪量子（科创板过会）、本源量子（Pre-IPO）。</div>
+        <div class="risk-box">①重资产重制造属性：CVD金刚石单晶生长炉、超高真空离子注入设备、超精密抛光产线单台造价高昂，扩产资本开支压力大；②生产工艺管控成本高：高纯金刚石合成、NV色心精准掺杂对洁净车间与真空环境要求严苛，设备折旧侵蚀毛利率；③下游市场体量现阶段偏小：金刚石基材市场容量短期有限，规模化放量需3-5年行业渗透周期；④同业技术竞争挤压：合肥本地先端晶体科技及省外企业同步布局；⑤高端核心设备进口依赖。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高风险成长型材料标的，核心亮点为量子精密测量最先兑现赛道+头部企业锁单+耗材模式穿越周期+双国资股东背书；适合量子产业资本与国资基金，投资周期4-6年。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（头部量子企业产业战略并购，第一优先级、兑现效率最高）：3-4年内建成规模化CVD金刚石量产产线、对国仪/本源形成稳定千万级基材销售后，潜在买方包括国仪量子（科创板过会主体，最优并购方、锁定上游原材料）、本源量子（补齐室温固态金刚石路线）、力量钻石/黄河旋风/沃尔核材（第三代半导体/人工钻石上市公司）、国盾量子（固态量子计算上游材料版图）。</div>
+        <div class="exit-box">路径二（A/B/C轮一级市场老股转让，第二优先级、中期流动性兜底）：Pre-A→A轮→B轮迭代中引入国家大基金与第三代半导体产业资本，由后期机构承接前期国资老股份额，一级市场转让普遍存在估值折价。</div>
+        <div class="exit-box">路径三（科创板独立IPO，第三优先级、收益天花板最高）：量产盈利达标后申报科创板第四套标准，或依托量子前沿属性申报第五套标准；合肥国仪量子已成功过会、政策申报路径通畅，完整周期5-7年。</div>
+        <div class="exit-box">路径四（大股东股权回购，兜底风险对冲方案）：本轮Pre-A/天使轮协议约定回购保障，由创始团队及实控人按约定年化收益率回购，对冲技术失败、商业化不及预期风险。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="cat5"><div class="cat-header cat5"><span class="num">5</span>量子芯片代工、微纳加工、封装测试<span class="desc">晶圆制造上游</span></div>
+<div class="company-card cat5">
+  <div class="company-header">
+    <span class="idx">1.</span>
+    <span class="name">量芯智造（合肥）</span>
+    <span class="tag">问天量子全资子公司</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称合肥量芯科技有限公司（市场俗称"量芯智造"，与量芯微电子为同一主体），2018年6月15日成立，注册地合肥蜀山区/高新区，注册资本3000万元，法定代表人郝礼祥，员工约42-43人；高新技术企业、科技型中小企业、合肥市专精特新中小企业。</p>
+        <p>股权融资：安徽问天量子科技股份有限公司100%全资控股，无外部财务投资人直接持股；最终实控链条为韩正甫（中科大教授、问天量子董事长）通过合伙企业+直接持股合计控制问天量子约24.8%表决权；问天量子由郭光灿院士牵头创办，为中科大量子信息重点实验室成果转化平台。</p>
+        <p>核心团队：背靠中科大郭光灿、韩正甫院士团队，为国内量子信息源头实验室技术独家转化端口。</p>
+        <p>主营产品：①量子科教仪器与科研平台（核心现金牛业务）：量子纠缠教学机、QKD密钥分发教学系统、超导量子计算真机教研整机、量子精密测量教学模块，中标安徽大学50+比特超导量子计算真机项目（340万元），2025年全年营收2733.27万元、营收几乎全部来自科教招投标；②高性能量子保密通信硬件（商用QKD终端、量子加密网关、光量子集成芯片）；③量子安全应用系统集成（后量子密码加固网络安全方案）。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①赛道长期确定性：量子通信、量子计算写入十四五/十五五科技自立自强规划，合肥为全国量子产业核心承载地；②现金流稳定、盈利可预期：千万级稳定年收入、轻资产高毛利，高校新建量子实验室与理工科扩招带来持续增量；③稀缺的细分垄断赛道：国内具备完整量子科教软硬件交付能力的企业不超过3家，依托中科大院系资源近乎局部垄断；④集团协同价值极高：可共享问天量子上游供应链并承接集团政企大项目分包；⑤政策补贴与高新技术税收优惠。</div>
+        <div class="risk-box">①股权结构致命缺陷（第一大风险）：100%全资法人独资子公司，外部投资方必须通过母公司股权转让/增资间接持股，投票权、分红权受母公司约束，投资条款谈判难度极大；②业务增长天花板约束：95%以上依赖高校政府采购、受地方教育经费拨付节奏影响，中期难爆发式增长；③母公司战略定位风险：若问天量子整体资本化大概率将优质资产装入母公司，子公司独立价值被弱化；④竞争与技术迭代风险：本源、国仪均在布局量子科教仪器，持续高额研发侵蚀利润；⑤规模治理风险：40余人组织架构，IPO合规成本高。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">稳健避险型标的，估值参考PE区间15-25倍、投后估值约4.05亿-6.75亿元；适合合肥本地国资基金、硬科技长期战略资本与避险型PE；投资前提为要求问天量子出具股权托管、分红兜底、资产独立核算协议并绑定业绩对赌。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（母公司问天量子整体IPO，间接股权二级市场退出、最优优先级）：投资主体锁定顶层母公司安徽问天量子而非子公司，待问天量子对标国仪量子申报科创板/北交所上市后二级市场退出；需在协议中明确量芯利润并表、资产不剥离、设置上市时间对赌；退出周期5-8年、IRR预期12%-20%。</div>
+        <div class="exit-box">路径二（产业链头部上市公司并购退出，次优优先级）：潜在买方为国盾量子（688027）、海光信息/中科星图/聚光科技、合肥产投及合肥国资控股上市平台；分整体资产并购与业务板块收购两种模式，退出确定性较强、周期3-5年，但并购估值通常低于IPO。</div>
+        <div class="exit-box">路径三（原大股东问天量子/韩正甫团队股权回购，保底兜底路径）：投资时强制约定回购义务，触发条件为投资满5年未IPO、无第三方并购、连续两年净利润下滑，回购计价为本金+年化6%-8%固定资金成本，本金安全性最高。</div>
+        <div class="exit-box">路径四（同业产业基金/战略投资方二手股权转让，流动性补充）：受让方为安徽省量子产业基金、合肥高新投、国投科技、中电科旗下产业资本、高校产学研基金，量子赛道专业买方较少、折价概率大，仅作过渡退出方式。</div>
+        <div class="exit-box">路径五（主体分立改制后独立IPO，可行性最低）：需问天量子将子公司业务、人员、资产、专利完整剥离改制为股份公司，但母公司意愿极低、体量未达科创板硬科技指标，仅作远期备选。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat5">
+  <div class="company-header">
+    <span class="idx">2.</span>
+    <span class="name">光集微光子封装（上海）</span>
+    <span class="tag">CPO光电共封装先进封测</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：全称光集微光子封装（上海）有限公司（工商常用简称OIP光集微），注册地上海浦东，初创型硬科技小微企业、团队规模50人以内，聚焦光子/光电异构集成先进封装赛道；手握面板级光学封装、异质光电子耦合专利。</p>
+        <p>股权融资：初创阶段、股权结构早期；上海半导体产业集群区位，贴近光模块与算力芯片设计客户。</p>
+        <p>核心团队：聚焦光子封装技术的研发型团队。</p>
+        <p>主营产品：①CPO光电共封装：AI算力光引擎、硅光芯片耦合封装、FAU光模块封装；②超薄光电器件封装：VCSEL激光雷达模组、3D传感CIS封装、面板级FOPLP光学集成封装；③车载&消费光电封装：自动驾驶激光雷达封装、穿戴设备超薄光学模组、芯片级原子钟特种封装。CPO为AI算力降功耗核心方案，国内量产封装产能稀缺。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①赛道高景气：AI算力驱动CPO、硅光封装爆发，光子先进封装国产替代空间明确、政策扶持半导体先进封测；②细分差异化：避开通用IC封测红海、专攻光子光电专属封装，技术细分壁垒高；③可延展性强：下游覆盖算力服务器、车载激光雷达、消费3D感知三大高增长终端；④上海产业赋能：易对接张江芯片设计公司与临港封测产能，获取产业基金补贴与项目订单。</div>
+        <div class="risk-box">①商业化不确定性：初创验证周期长、CPO技术路线尚未完全定型、下游客户认证周期极长；②重资产压力：高精度封装设备、洁净厂房投入大、持续烧钱、现金流消耗快；③巨头降维打击：长电科技、盛合晶微、赛微电子等大厂快速布局CPO封装，中小厂商议价能力弱、毛利率易被压缩；④地缘技术风险：高端耦合设备、光学检测仪器依赖进口。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高风险早期标的，估值参考早期光电子封装企业投前估值区间8000万-2亿元、绑定订单可上浮；适合半导体产业基金、算力/光通信产业链战略资本与上海本地高新创投，不适合短期快进快出财务投资。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（科创板/北交所独立IPO，最优路径、周期6-8年）：光子先进封装满足科创板"先进封测、光电集成"科创属性指标，需多轮融资扩产、年度营收破2-3亿并积累发明专利，二级市场溢价最高、IRR预期20%-30%。</div>
+        <div class="exit-box">路径二（产业链上市公司并购，次优、周期3-5年、确定性最高）：潜在收购方包括盛合晶微、长电科技、通富微电等封测龙头，中际旭创、新易盛、赛微电子等光通信/算力上市公司及上海国资半导体产业平台；现金/股份快速交割，并购估值通常低于上市估值。</div>
+        <div class="exit-box">路径三（大股东/实控人股权回购，保底兜底路径）：投资协议约定5年内未完成IPO或重大并购，由创始团队/大股东按本金+年化7%-8%复利回购，锁定本金安全。</div>
+        <div class="exit-box">路径四（一级市场老股转让，流动性补充）：转让给后续产业基金、光子赛道专项创投、上下游战略投资方，标的受众小、大概率折价转让。</div>
+        <div class="exit-box">路径五（业务资产拆分出售，极端备选）：若经营不及预期，剥离CPO封装专利、产线设备、客户资质打包卖给同业后主体清算注销，属止损型退出。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat5">
+  <div class="company-header">
+    <span class="idx">3.</span>
+    <span class="name">博顿光电</span>
+    <span class="tag">离子束超精密加工装备</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：2016年成立，实控人冀鸣，国家级专精特新小巨人、高新技术企业，员工71人，2025年营收约4853万元；已完成B+轮超亿元融资、累计7轮机构融资（中芯聚源、毅达资本、中信建投资本等头部产业资本入局）。</p>
+        <p>股权融资：B+轮超亿元、累计7轮机构融资，机构背书完善、IPO规范化基础扎实。</p>
+        <p>核心团队：掌握离子源核心部件-整机装备-工艺方案全链条自研能力，国内极少数实现该链条闭环的厂商，打破海外寡头垄断。</p>
+        <p>主营产品：自研全系列离子源+离子束整机设备（离子束镀膜、刻蚀、抛光、清洗），亚纳米级超精密加工；下游四大板块：①精密光学、航空航天、国防军工（稳定基本盘）；②AI光通信薄膜器件、泛半导体微纳工艺（高增长）；③高温超导带材IBAD设备（国内几乎独家）；④量子科技核心光学制备设备（定点供应商）。手握200+专利，牵头制定行业团体标准。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①硬科技国产替代强逻辑：离子束是微纳制造卡脖子核心装备，科创属性高度匹配科创板上市要求；②下游多高景气赛道共振：绑定AI光模块、高温超导可控核聚变、量子信息、半导体四大长坡厚雪赛道，营收连续多年50%以上增速、客户壁垒极深；③稀缺垄断卡位：高温超导带材离子束设备国内唯一供货方、量子实验室高端镀膜设备定点供应商，细分领域近乎垄断、议价能力强；④机构背书完善。</div>
+        <div class="risk-box">①重研发、资本开支持续投入：高端真空装备研发、产线扩产需长期资金投入，盈利释放节奏偏慢；②下游行业资本周期波动：航天、半导体、核聚变项目受财政与产业资本开支影响、订单存在时间不确定性；③海外竞品技术迭代压制：国际老牌厂商在超高精度设备上仍有性能优势；④高端检测零部件仍部分依赖进口。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中风险高成长标的，估值参考专精特新硬科技装备企业B+轮后PE 20-28倍区间；适合半导体产业基金、硬科技长期PE与粤港澳大湾区国资创投，不适合短期套利型天使投资。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（科创板独立IPO，最优路径、周期5-7年）：公司属于高端科学仪器、半导体微纳加工装备，完全符合科创板硬科技五大指标；现有股东阵容、专精特新资质、多项国家级科研项目为申报加分项，二级市场退出溢价最高、IRR预期20%-25%。</div>
+        <div class="exit-box">路径二（产业链上市公司并购，次优、确定性最高、周期3-4年）：潜在收购方包括奥普光电、茂莱光学（光学/镀膜设备）、北方华创、中微公司、长川科技（半导体设备平台）、光通信/超导材料上市企业及广东国资产业平台；现金+股份快速交割，并购估值低于二级市场。</div>
+        <div class="exit-box">路径三（创始人大股东回购，保底兜底条款）：投资满5年未启动IPO辅导、无重大产业并购，由实控人按本金+年化7%-8%复利回购，锁定本金安全。</div>
+        <div class="exit-box">路径四（一级市场S基金老股转让，流动性补充）：转让给半导体专项S基金、后续轮次产业投资方，标的细分小众、大概率折价转让。</div>
+        <div class="exit-box">路径五（业务资产分拆处置，极端止损备选）：若IPO受阻、并购无果，单独转让离子源核心专利、超导/量子赛道设备业务线后主体清算注销，最大限度回收残值。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="cat6"><div class="cat-header cat6"><span class="num">6</span>量子电磁屏蔽、抗干扰环境系统<span class="desc">配套基础设施上游</span></div>
+<div class="company-card cat6">
+  <div class="company-header">
+    <span class="idx">1.</span>
+    <span class="name">磁盾科技（成都）</span>
+    <span class="tag">高精度磁屏蔽系统</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：注册于成都，专注高精度磁屏蔽系统、零高斯磁屏蔽舱、电磁兼容EMC屏蔽装置、弱磁检测防护腔体研发制造，聚焦实验室精密仪器、量子科研、半导体晶圆检测、航天军工、医疗核磁抗干扰场景，属细分硬核装备厂商、高新科技型中小企业。</p>
+        <p>股权融资：地方产业基金可投的专精特新科研装备小微企业，盈利模式为项目定制化设计+成套设备销售+现场安装调试+后期维保。</p>
+        <p>核心团队：掌握软磁合金材料复合叠层工艺、磁场仿真建模、极低漏磁结构设计技术门槛，绑定成都量子信息、半导体产业集群，科研院所渠道粘性强。</p>
+        <p>主营产品：多层高导磁合金屏蔽室、被动式零磁场暗室、芯片测试磁屏蔽箱、超导量子器件磁防护腔体；下游客户为高校量子实验室、中科院院所、半导体封测/检测企业、航空航天研究所、精密医疗设备厂商；对标海外进口磁屏蔽系统实现国产化替代。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①国产替代刚需：量子计算、超导、半导体弱磁测试、航天精密测控均需高精度磁屏蔽，进口设备价格高昂、国产化降本空间明确、契合硬科技政策导向；②下游高景气赛道托底：深度受益国内量子实验室建设、第三代半导体检测、商业航天产业扩张，政企科研预算持续性强、现金流稳健；③轻资产属性：以研发设计、系统集成为主，重固定资产投入少、毛利率较高；④区位红利：成都高新区科创政策与产学研资源丰富。</div>
+        <div class="risk-box">①行业天花板约束：磁屏蔽装备属极度细分专用设备，整体市场规模有限、长期爆发式增长空间不足；②客户集中度偏高：收入高度依赖科研院所与军工招投标、财政预算波动直接影响订单；③技术迭代与竞争风险：材料科学迭代可能出现新型屏蔽方案，同行复制工艺压缩利润；④上游坡莫合金等核心磁性材料依赖外部采购。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中低风险稳健标的，估值参考专精特新科研装备小微企业成熟轮次PE约15-22倍、依据在手订单规模浮动；适合成都本地产业基金、硬科技长期PE与量子/半导体产业链战略投资人，不适合追求短期高增速的财务VC。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（北交所独立IPO，最优路径、周期5-7年）：归属高端科学仪器、半导体配套测试装备，满足北交所专精特新上市条件，依靠稳定营收与多项结构/材料发明专利申报，二级市场溢价最高。</div>
+        <div class="exit-box">路径二（产业链上市公司并购，次优、确定性最高、周期3-4年）：潜在收购方包括奥普光电、聚光科技（科研仪器上市公司）、长川科技、华峰测控（半导体检测/设备平台）、量子科技/军工电子上市企业及成都国资产业控股平台；现金或股份快速交割，并购估值低于二级市场。</div>
+        <div class="exit-box">路径三（创始团队大股东回购，保底兜底）：投资满5年未启动IPO辅导、无产业并购落地，由实控人按本金+年化7%复利回购，锁定本金安全。</div>
+        <div class="exit-box">路径四（一级市场老股S基金转让，流动性补充）：转让给半导体专项S基金、后续产业资本，赛道过于小众、接盘方稀缺、大概率折价出让。</div>
+        <div class="exit-box">路径五（专利与业务资产打包处置，极端止损）：若经营不及预期，单独转让磁屏蔽核心专利、客户资源与非标工艺技术后主体清算注销回收残值。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat6">
+  <div class="company-header">
+    <span class="idx">2.</span>
+    <span class="name">静环电磁（北京）</span>
+    <span class="tag">电磁屏蔽/零磁实验室工程</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：北京注册专精特新小微企业，聚焦高精度电磁屏蔽系统、极弱磁场防护腔体、电磁干扰EMI综合治理装置、科研级零磁实验室整体工程，对标海外进口磁屏蔽设备做国产化替代，服务精密测量、量子科研、半导体晶圆测试、军工航天、核磁共振设备抗干扰场景。</p>
+        <p>股权融资：轻资产研发集成模式，以定制化项目交付为主；北京科创基金补贴与产学研联合立项资源丰富。</p>
+        <p>核心团队：掌握多层坡莫合金复合叠装工艺、磁场有限元仿真算法、极低漏磁结构设计技术门槛，绑定北京中科院、清华北大量子实验室资源。</p>
+        <p>主营产品：①被动/主动式多层磁屏蔽筒、零高斯暗室、芯片测试屏蔽箱；②实验室电磁环境整改、屏蔽机房一体化工程；③特种电磁阻尼、磁场校准配套工装。填补国内高端精密磁屏蔽小众供给缺口。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①国产替代刚需：量子信息、超导器件、半导体微弱电性检测对超低磁环境硬性要求，进口设备溢价高、国产化降本空间明确；②下游需求稳健：高校量子实验室扩建、第三代半导体检测产线、军工科研立项均为财政刚性支出、现金流抗周期；③商业模式轻盈：偏重设计、仿真、系统集成，厂房与重设备投入少、综合毛利率较高；④区位资源加持：北京科研院所高度集中，便于获取项目订单与补贴。</div>
+        <div class="risk-box">①行业天花板明显：专用科研屏蔽装备赛道狭窄、长期难以爆发式增长，属稳健慢增长标的；②客户集中度偏高：营收高度依赖科研院所招投标、年度预算波动直接影响业绩；③同业竞争挤压：成都磁盾科技、其他电磁设备厂商不断迭代工艺压缩利润空间；④上游高导磁合金原材料外部采购。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中低风险稳健标的，估值参考专精特新科研配套装备成熟轮次PE约14-21倍、按在手框架订单调整；适合北京地方产业基金、硬科技长期PE与量子/半导体产业链战略投资方，不适合追求短期高增速的财务VC。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（北交所独立IPO，最优路径、周期5-7年）：归类高端科学仪器、半导体测试配套设备，满足北交所专精特新上市指标，依靠稳定年度营收、结构发明专利、科研项目资质申报，二级市场溢价最高。</div>
+        <div class="exit-box">路径二（产业链上市公司并购，次优、确定性最高、周期3-4年）：潜在收购方为奥普光电、聚光科技等科研仪器上市公司，华峰测控、长川科技等半导体检测设备企业，军工电子/量子科技上市平台及北京国资控股产业集团；现金/股份快速交割，并购估值低于二级市场。</div>
+        <div class="exit-box">路径三（创始人大股东回购，保底兜底）：投资满5年未启动IPO辅导、无产业并购落地，实控人按本金+年化7%复利回购，锁定本金安全。</div>
+        <div class="exit-box">路径四（一级市场S基金老股转让，流动性补充）：转让给硬科技S基金、后续进场产业资本，赛道过于细分、接盘方较少、大概率折价出让。</div>
+        <div class="exit-box">路径五（专利与项目资产打包处置，极端止损）：若资本化受阻，单独转让磁屏蔽核心专利、实验室客户资源、仿真工艺技术后主体清算回收残值。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="cat7"><div class="cat-header cat7"><span class="num">7</span>后量子密码PQC底层算法IP<span class="desc">数字安全上游</span></div>
+<div class="company-card cat7">
+  <div class="company-header">
+    <span class="idx">1.</span>
+    <span class="name">安密信科技（杭州）</span>
+    <span class="tag">涉密加密通信系统</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：工商全称杭州安司源科技有限公司（市场俗称安密信/安司密信），2014年成立于杭州滨江，高新技术企业、商用密码定点单位，团队50人以内；核心研发人员来自国防科大、华为、中科院电子所。</p>
+        <p>股权融资：成熟期软件企业，政企项目收入为主；已落地航天、中电科、中科院等硬核客户，涉密领域准入门槛极高。</p>
+        <p>核心团队：核心研发人员来自国防科大、华为、中科院电子所，具备国密算法与涉密通信深厚积累。</p>
+        <p>主营产品：主打国产化端到端加密即时通讯系统三大产品线——①政务密信（党政机关涉密私有化部署通信平台）；②企业密信（军工、央企、科研院所内部安全办公IM）；③安司密信C端加密聊天工具。全部采用国密SM2/SM3/SM4算法，支持阅后即焚、远程销毁、截屏预警、私有化服务器部署，适配国产鲲鹏、飞腾、深度操作系统。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①政策强驱动：数据安全、涉密信创、国密替代为国家硬性要求，党政军工涉密通信属刚性采购、行业景气度长期稳定；②细分赛道垄断属性：涉密私有化加密IM资质壁垒极高、同行直接竞争者数量少、客户粘性极强续约率高；③轻资产高毛利：软件研发交付模式、无生产制造投入、边际成本极低；④区位赋能：杭州滨江网信产业生态圈，可对接杭州国资基金、信创集采项目与资质升级。</div>
+        <div class="risk-box">①营收规模天花板：涉密政企招投标市场容量有限、难以实现爆发式营收增长；②大客户依赖风险：收入高度绑定军工、政务财政预算、经费波动直接影响年度业绩；③大厂降维竞争：安恒信息、奇安信等上市网安企业向下延伸涉密IM业务；④合规监管风险：加密通信、商用密码受强监管，资质年审与业务范围管控严格。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">稳健慢收益标的，估值参考信创涉密软件小微企业成熟轮次PE 16-24倍、依据在手涉密框架订单调整；适合杭州本地信创产业基金、网络安全专项PE与军工信息化战略资本，不适合追求短期高爆发的天使VC。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（北交所IPO，最优路径、周期5-7年）：归属信创、商用密码、数据安全软件行业，符合北交所专精特新上市条件；依托商密资质、军工涉密客户、持续软件著作权申报上市，二级市场溢价最高。</div>
+        <div class="exit-box">路径二（网安上市公司并购，次优、确定性最高、周期3-4年）：潜在收购方为安恒信息、奇安信、启明星辰、中孚信息等信创安全上市企业及杭州国资信创产业平台；现金/股份快速交割，并购估值低于二级市场。</div>
+        <div class="exit-box">路径三（创始人大股东回购，保底兜底）：投资满5年未启动IPO辅导、无产业并购落地，实控人按本金+年化7%复利回购，锁定本金安全。</div>
+        <div class="exit-box">路径四（一级市场S基金老股转让，流动性补充）：转让给信创、网络安全专项S基金及后续产业投资方，赛道细分小众、涉密标的接手方偏少、易折价转让。</div>
+        <div class="exit-box">路径五（软件著作权与涉密资质打包处置，极端止损）：若资本化受阻，单独转让商用密码资质、涉密软件知识产权、政企客户资源后主体清算回收残值。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat7">
+  <div class="company-header">
+    <span class="idx">2.</span>
+    <span class="name">后量子芯科（深圳）</span>
+    <span class="tag">PQC抗量子安全芯片</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：注册于深圳，聚焦后量子密码PQC芯片、抗量子安全硬件、NIST标准抗量子算法IP核研发，Fabless芯片设计模式、高新技术企业，切入密码学前沿防御赛道，应对未来通用量子计算机破解传统加密体系风险。</p>
+        <p>股权融资：早期芯片设计硬科技标的，尚未进入大规模量产融资阶段；深圳南山半导体产业基金与信创联盟资源可对接。</p>
+        <p>核心团队：国内较早实现PQC芯片硬件化落地的初创团队，紧跟国际NIST后量子密码官方标准。</p>
+        <p>主营产品：①硬件级后量子密码安全芯片、加密密码卡、安全模组；②适配国密SM算法+PQC双兼容算法库、IP授权；③信创服务器、金融终端、工控、车载芯片抗量子安全加固方案；服务政企、金融、电力、军工涉密领域。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①长期战略刚需赛道：后量子密码是国家数字安全底层防御工程，信创、数据安全、军工涉密强制前瞻布局、政策持续性极强；②国产替代稀缺性：海外英飞凌、Rambus掌握成熟PQC硬件IP，公司实现国产化芯片自研、填补国内硬件落地缺口；③轻资产商业模式：Fabless无晶圆重资产投入、以IP授权与芯片方案销售为主、边际成本低；④深圳区位红利：可对接南山半导体产业基金、信创联盟与金融科技头部客户。</div>
+        <div class="risk-box">①商业化落地周期极长：量子大规模商用尚需数年、客户主动采购意愿弱、业绩兑现缓慢；②技术路线不确定性：NIST后量子密码标准存在版本修订可能、前期研发成果面临迭代失效风险；③大厂降维竞争压力：国芯科技、格尔软件、中孚信息等上市大厂跨界布局；④持续高研发消耗：芯片流片、算法迭代、资质认证需不断追加资本、现金流承压。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中高风险早期标的，估值参考早期芯片设计硬科技项目投前区间8000万-1.8亿元、落地批量订单后上浮；适合半导体产业基金、网络安全专项PE、深圳国资硬科技创投与长期战略产业资本，不适合短期套利型财务VC。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（科创板独立IPO，最优路径、周期6-8年）：归属集成电路设计、网络安全硬科技范畴、完全契合科创板半导体科创属性指标；依靠芯片发明专利、商密资质、信创项目申报上市，二级市场溢价最高。</div>
+        <div class="exit-box">路径二（产业链上市公司并购，次优、确定性最高、周期3-5年）：潜在收购方为国芯科技、中孚信息、格尔软件等密码安全上市企业，奇安信、安恒信息等网安平台，半导体设计上市公司及深圳国资产业控股集团；现金/股份快速交割，并购估值低于二级市场。</div>
+        <div class="exit-box">路径三（创始人大股东回购，保底兜底）：投资满5年未启动IPO辅导、无产业并购落地，实控人按本金+年化7%-8%复利回购，锁定本金安全。</div>
+        <div class="exit-box">路径四（一级市场S基金老股转让，流动性补充）：转让给半导体/密码安全专项S基金及后续轮次产业投资方，赛道过于前沿、专业接盘方数量少、大概率折价转让。</div>
+        <div class="exit-box">路径五（IP核与专利资产打包处置，极端止损）：若资本化受阻，单独转让后量子算法IP、芯片软著、商用密码资质后主体清算回收研发残值。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat7">
+  <div class="company-header">
+    <span class="idx">3.</span>
+    <span class="name">安徽问天量子</span>
+    <span class="tag">量子密码通信核心老牌平台</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：2009年成立于安徽芜湖，郭光灿院士、中科大韩正甫教授创办，脱胎于中科院量子信息重点实验室；国家级专精特新小巨人、高新技术企业，中科大资产为重要股东；2026年完成6亿元B轮融资，为国内量子密码通信核心老牌产业化平台。</p>
+        <p>股权融资：2026年完成6亿元B轮机构融资，股东包含产业资本、科大系平台，股改规范度高，为安徽重点后备上市硬科技企业。</p>
+        <p>核心团队：郭光灿院士、韩正甫教授领衔的量子密码通信顶级团队，量子密码国标牵头制定单位。</p>
+        <p>主营产品：五大产品线——①量子保密通信QKD组网设备（政务、电力、金融骨干网）；②量产量子随机数芯片、国内首款芯片级后量子密码卡；③量子科教仪器（全资子公司量芯智造承载）；④AI算力抗量子安全加固平台；⑤军工涉密量子安防系统。深度落地招行、多地量子政务网、超算中心安全防护项目，拥有200+项核心专利。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①顶级赛道+顶层政策：量子信息、后量子密码写入国家长期科技规划，AI算力抗量子防护是未来数字安全底层刚需；②技术与资质护城河极深：院士产学研背书、密码标准制定权、涉密准入资质，新进入者短期无法逾越，细分赛道头部稀缺标的；③营收结构双保险：政企量子工程带来大额项目收入，子公司量子科教设备贡献持续性稳健现金流、抗周期能力强；④资本与上市基础扎实：已完成大额B轮融资，为安徽重点后备上市硬科技企业。</div>
+        <div class="risk-box">①商业化兑现周期长：量子大规模商用落地仍需5-8年，年度业绩受地方财政预算拨付节奏影响波动；②同业直接竞争：国盾量子A股上市在先，品牌、项目、产能规模更大、挤压市场份额与定价空间；③持续高研发资本开支：量子芯片、后量子算法迭代、硬件量产需不断追加资金、现金流消耗压力较大。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">中风险头部平台标的，估值参考量子信息硬科技头部未上市企业B轮后PE区间22-30倍、绑定芯片批量出货订单可上调；适合安徽/合肥国资产业基金、硬科技长期PE与网络安全/通信产业链战略资本，不适合短期套利型财务VC。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（科创板独立IPO，最优路径、周期5-7年）：完全符合科创板硬科技六大指标，归属量子信息技术、集成电路安全芯片、网络安全赛道；现有股东结构、专精特新资质、大量发明专利为申报强力加分项，二级市场退出溢价最高、预期IRR 25%+。</div>
+        <div class="exit-box">路径二（产业链上市公司并购，次优、确定性最高、周期3-4年）：潜在收购方为国盾量子（直接同业）、亨通光电、天融信、奇安信、海光信息、中孚信息等通信/算力/密码安全上市企业及安徽省级国资产业上市平台；审核流程短、交割快，并购估值低于二级市场。</div>
+        <div class="exit-box">路径三（大股东/实控人回购，保底兜底条款）：投资满5年未启动IPO辅导、无重大产业并购，由创始团队及大股东按本金+年化7%-8%复利回购股权，锁定本金安全底线。</div>
+        <div class="exit-box">路径四（一级市场S基金老股转让，流动性补充）：将股权转让给量子科技专项S基金、后续轮次产业投资方，赛道小众、专业接盘方有限、大概率折价转让。</div>
+        <div class="exit-box">路径五（业务板块分拆出售，极端止损）：若整体资本化受阻，拆分量子随机数芯片、后量子密码IP、科教子公司资产分别打包出让，回收研发与资产残值。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="cat8"><div class="cat-header cat8"><span class="num">8</span>中性原子/离子阱专属上游零部件<span class="desc">细分路线专项供应商</span></div>
+<div class="company-card cat8">
+  <div class="company-header">
+    <span class="idx">1.</span>
+    <span class="name">原子矩阵MatriQ（上海）</span>
+    <span class="tag">中性原子量子计算全栈整机</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：母公司为杭州原子矩阵计算有限公司（MatriQ），2025年6月成立；上海原子矩阵云计算有限公司为其100%全资子公司，负责上海研发、算力融合、AI量子协同业务；核心团队源自马普所、帝国理工等海外顶尖院所。</p>
+        <p>股权融资：2026年完成A轮数亿元融资，投资方为砺思资本、祥峰中国等一线机构，股权架构规范、后续接续融资能力较强。</p>
+        <p>核心团队：源自马普所、帝国理工等海外顶尖院所的中性原子量子计算团队，具备千比特级稳定运行工程化能力。</p>
+        <p>主营产品：主打中性原子量子计算全栈整机解决方案——自研2048比特无缺陷中性原子量子阵列原型机，覆盖光学精密硬件、量子控制系统、编译算法、量子云服务；对外销售科研级量子计算机整机、实验室搭建、量子仿真算力租赁，同步研发量子-AI混合训练装置；全套光学光路、原子操控底层专利自主可控。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①顶级赛道长期政策红利：中性原子被公认为最易实现大规模扩展的量子计算路线，属国家前沿科技攻关方向、产业基金扶持力度大；②技术卡位稀缺：国内千比特中性原子真机落地玩家极少，团队海外顶尖学术背景、工程化整机交付能力构成硬壁垒；③下游应用空间广阔：面向高校科研院所、新材料分子模拟、生物医药研发、超算中心算力外包，长期市场天花板极高；④股东背书扎实：A轮一线机构投资、后续接续融资能力较强。</div>
+        <div class="risk-box">①商业化兑现周期极长：短期只能依靠科研项目零星订单，盈利至少7-10年才能显现、资金消耗压力巨大；②技术迭代与路线风险：超导、离子阱、光子等多条量子路线并行竞争、中性原子产业化进度存在不确定性；③重资产研发投入无底洞：真空系统、激光光源、精密成像系统高度依赖进口零部件、供应链与成本风险突出；④巨头挤压：本源量子、国盾量子等成熟上市公司资金、渠道、产能全面领先。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高风险高潜力标的，估值参考A轮前沿量子硬件初创投后区间3-6亿元、以逻辑比特突破与标杆客户落地为上调依据；适合国家级硬科技母基金、长三角/上海量子专项产业资本与长期战略PE，完全不适合追求3-5年短期回报的财务VC。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（科创板硬科技IPO，最优路径、周期7-10年）：量子计算机整机属高端科学仪器、下一代算力底层硬件、完美契合科创板硬科技属性；待营收规模化、知识产权体系完善后申报，二级市场溢价最高，上海子公司可作为算力云业务板块并表增厚报表。</div>
+        <div class="exit-box">路径二（产业链头部企业并购，次优、确定性更强、周期5-7年）：潜在收购方为本源量子、国盾量子等同业量子上市公司，中科曙光、浪潮信息等超算算力平台，半导体设备龙头及上海国资委科创上市平台；审核流程短，并购估值显著低于IPO。</div>
+        <div class="exit-box">路径三（创始人大股东回购，强制兜底条款）：投资满6年未启动IPO辅导、无重大产业并购，由实控人及创始团队按本金+年化8%复利回购股权，锁定本金安全底线。</div>
+        <div class="exit-box">路径四（一级市场S基金老股转让，流动性补充）：转让给量子科技专项S基金、后续大额产业投资方，赛道过于前沿、合格接盘方数量稀少、大概率折价转让。</div>
+        <div class="exit-box">路径五（核心专利与整机技术资产分拆处置，极端止损）：若技术突破不及预期，单独转让中性原子操控专利、光学系统方案、科研客户资源后主体清算回收残值。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="company-card cat8">
+  <div class="company-header">
+    <span class="idx">2.</span>
+    <span class="name">铟光原子科技（合肥）</span>
+    <span class="tag">中性原子整机+量子传感</span>
+  </div>
+  <div class="company-body">
+    <div class="section bg-section">
+      <div class="section-title"><span class="icon">1</span>基础工商与设立背景</div>
+      <div class="section-content">
+        <p>主体信息：注册于合肥高新区，依托中科大原子物理实验室技术孵化，聚焦中性原子量子计算整机、光镊操控系统、量子精密测量设备研发，初创硬科技企业，深度绑定合肥量子产业走廊政策资源。</p>
+        <p>股权融资：早期中性原子量子初创项目，合肥高新区量子专项基金与长三角硬科技长期PE可投区间。</p>
+        <p>核心团队：具备原子激光冷却、光镊阵列底层自研能力，依托中科大原子物理实验室技术孵化。</p>
+        <p>主营产品：①中性原子量子计算科研原型机、二维原子阵列光控硬件；②量子陀螺仪、原子磁力计等量子传感装备；③高校量子实验室整套搭建、量子测控系统软件算法；客户以安徽及全国高校、中科院院所、军工科研单位为主。</p>
+      </div>
+    </div>
+    <div class="section inv-section">
+      <div class="section-title"><span class="icon">2</span>投资分析</div>
+      <div class="section-content">
+        <div class="highlight-box">①政策赛道顶层加持：量子计算被列为国家重点攻关前沿技术，合肥对量子科创企业专项扶持力度大、产业基金接续融资通道顺畅；②路线长期价值突出：中性原子架构可扩展性远优于超导、离子阱，为未来容错通用量子计算机最具潜力路线；③短期有现金流缓冲：量子精密测量仪器、实验室教学设备可先行产生科研项目收入，对冲纯量子主机研发空窗期；④区位集群优势：共享合肥量子上下游供应链、检测平台、院士智库资源。</div>
+        <div class="risk-box">①商业化兑现周期极长：通用量子计算机至少7-10年才能产生大额盈利、中长期无稳定利润、资金消耗压力极大；②技术路线迭代风险：超导、光子、离子阱多条量子路线并行角逐、中性原子产业化进度存在不确定性；③巨头降维碾压：本源量子、问天量子等头部企业资金、专利、客户资源全面领先；④供应链卡脖子风险：核心激光器、超高分辨率成像系统海外依存度高、存在采购限制与成本上涨风险。</div>
+        <div class="rating-box"><div class="rating-label">投资评级</div><div class="rating-text">高风险早期标的，估值参考早期中性原子量子初创投前区间1.5亿-3亿元、以样机比特数与院所框架订单为上调依据；适合合肥高新区量子专项基金、长三角硬科技长期PE与量子产业链战略投资方，不适合追求3-5年短期回报的财务VC。</div></div>
+      </div>
+    </div>
+    <div class="section exit-section">
+      <div class="section-title"><span class="icon">3</span>退出路径</div>
+      <div class="section-content">
+        <div class="exit-box">路径一（科创板硬科技IPO，最优路径、周期7-10年）：量子计算机整机、高端科学仪器完全匹配科创板硬科技认定标准；待营收规模化、专利体系完善后申报上市，二级市场退出溢价最高。</div>
+        <div class="exit-box">路径二（产业链头部企业并购，次优、确定性更高、周期5-7年）：潜在收购方为本源量子、国盾量子等同业量子上市平台，中科曙光等超算算力厂商，合肥国资量子产业控股上市主体；审核周期短，并购估值低于IPO。</div>
+        <div class="exit-box">路径三（创始人大股东回购，强制兜底）：投资满6年未启动IPO辅导、无产业并购落地，实控人按本金+年化8%复利回购股权，锁定本金安全底线。</div>
+        <div class="exit-box">路径四（一级市场S基金老股转让，流动性补充）：转让给量子科技专项S基金、后续轮次产业资本，赛道过于前沿、合格接盘方稀缺、大概率折价转让。</div>
+        <div class="exit-box">路径五（技术专利与设备资产分拆处置，极端止损）：若技术突破不及预期，单独转让光镊操控专利、量子传感产品线、科研客户资源后主体清算回收残值。</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">国内量子产业上游纯未上市企业完整名录+融资详情（2026最新完整版） | 本报告仅供投资参考，不构成投资建议</div>
+</div>
+<button class="back-top" id="backTop" title="返回顶部">&#8593;</button>
+<script>
+(function(){
+  var searchInput=document.getElementById('searchInput');
+  var filterTabs=document.querySelectorAll('.filter-tab');
+  var companyCards=document.querySelectorAll('.company-card');
+  var catSections=document.querySelectorAll('div[id^="cat"]');
+  var expandAllBtn=document.getElementById('expandAll');
+  var collapseAllBtn=document.getElementById('collapseAll');
+  var darkModeBtn=document.getElementById('darkMode');
+  var backTopBtn=document.getElementById('backTop');
+  var progressBar=document.getElementById('progressBar');
+  var noResults=document.getElementById('noResults');
+  var currentFilter='all';
+  var currentSearch='';
+
+  // 给每家公司添加折叠箭头和收藏星标
+  companyCards.forEach(function(card,i){
+    var header=card.querySelector('.company-header');
+    var star=document.createElement('span');
+    star.className='star';
+    star.innerHTML='&#9734;';
+    star.title='收藏';
+    header.appendChild(star);
+    var toggle=document.createElement('span');
+    toggle.className='toggle';
+    toggle.innerHTML='&#9660;';
+    header.appendChild(toggle);
+    card.dataset.searchable=card.textContent.toLowerCase();
+    card.dataset.idx=i;
+    if(localStorage.getItem('qm_star_'+i)==='1'){
+      star.innerHTML='&#9733;';
+      star.classList.add('starred');
+    }
+    header.addEventListener('click',function(e){
+      if(e.target.classList.contains('star'))return;
+      card.classList.toggle('collapsed');
+    });
+    star.addEventListener('click',function(e){
+      e.stopPropagation();
+      var starred=star.classList.toggle('starred');
+      star.innerHTML=starred?'&#97333;':'&#9734;';
+      localStorage.setItem('qm_star_'+i,starred?'1':'0');
+    });
+  });
+
+  // 搜索过滤
+  searchInput.addEventListener('input',function(){
+    currentSearch=this.value.toLowerCase().trim();
+    applyFilters();
+  });
+
+  // 类别筛选
+  filterTabs.forEach(function(tab){
+    tab.addEventListener('click',function(){
+      filterTabs.forEach(function(t){t.classList.remove('active')});
+      this.classList.add('active');
+      currentFilter=this.dataset.cat;
+      applyFilters();
+    });
+  });
+
+  function applyFilters(){
+    var visibleCount=0;
+    companyCards.forEach(function(card){
+      var catClass='';
+      card.classList.forEach(function(c){if(/^cat\d$/.test(c))catClass=c});
+      var matchesCat=currentFilter==='all'||currentFilter==='starred'||catClass===currentFilter;
+      var matchesSearch=!currentSearch||card.dataset.searchable.indexOf(currentSearch)>-1;
+      var matchesStar=currentFilter!=='starred'||localStorage.getItem('qm_star_'+card.dataset.idx)==='1';
+      if(matchesCat&&matchesSearch&&matchesStar){
+        card.style.display='';
+        visibleCount++;
+      }else{
+        card.style.display='none';
+      }
+    });
+    // 隐藏没有可见企业的类别头
+    catSections.forEach(function(section){
+      var cards=section.querySelectorAll('.company-card');
+      var hasVisible=false;
+      cards.forEach(function(c){if(c.style.display!=='none')hasVisible=true});
+      section.style.display=hasVisible?'':'none';
+    });
+    noResults.style.display=visibleCount===0?'block':'none';
+  }
+
+  // 全部展开/折叠
+  expandAllBtn.addEventListener('click',function(){
+    companyCards.forEach(function(card){card.classList.remove('collapsed')});
+  });
+  collapseAllBtn.addEventListener('click',function(){
+    companyCards.forEach(function(card){card.classList.add('collapsed')});
+  });
+
+  // 暗黑模式
+  if(localStorage.getItem('qm_dark')==='1'){
+    document.body.classList.add('dark');
+    darkModeBtn.innerHTML='&#9728;';
+  }
+  darkModeBtn.addEventListener('click',function(){
+    document.body.classList.toggle('dark');
+    var isDark=document.body.classList.contains('dark');
+    darkModeBtn.innerHTML=isDark?'&#9728;':'&#127769;';
+    localStorage.setItem('qm_dark',isDark?'1':'0');
+  });
+
+  // 返回顶部 + 进度条
+  window.addEventListener('scroll',function(){
+    var scrollTop=window.scrollY;
+    var docHeight=document.documentElement.scrollHeight-window.innerHeight;
+    var progress=docHeight>0?(scrollTop/docHeight)*100:0;
+    progressBar.style.width=progress+'%';
+    if(scrollTop>400){backTopBtn.classList.add('show')}else{backTopBtn.classList.remove('show')}
+  });
+  backTopBtn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+
+  // TOC平滑滚动
+  document.querySelectorAll('.toc-item').forEach(function(link){
+    link.addEventListener('click',function(e){
+      e.preventDefault();
+      var target=document.querySelector(this.getAttribute('href'));
+      if(target){
+        var top=target.getBoundingClientRect().top+window.scrollY-70;
+        window.scrollTo({top:top,behavior:'smooth'});
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
